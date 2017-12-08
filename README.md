@@ -19,6 +19,10 @@ i.e. the goal is to support something we would denote as
 
 ## Other Statements
 
+### Statement on 2017-12-08 by https://github.com/christoph-v
+
+Currently, I am hosting a homepage for this repository at http://areasharpa.wordpress.com/spark
+
 ### Statement on 2017-12-02 by https://github.com/christoph-v
 
 In a first approach, I will bring the documentation of SrrTrains v0.01 project
