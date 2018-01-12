@@ -1,5 +1,5 @@
 # spark
-Simple Playground to Acquire Required Knowledge
+Simple Playground to Achieve Required Knowledge
 
 This repository was first hosted at https://github.com/christoph-v/spark.git
 
