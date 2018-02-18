@@ -10,8 +10,9 @@ Following statements are intended to hold true for this repository
 ### The GOAL of this project can be described by SMS-BONES-GPS
 
 The acronym SMS-BONES-GPS means, we would like to support the idea of
-using and/or profiling and/or defining 
-- IETF based communication protocols for Mixed Reality multiuser scenes
+using and/or profiling and/or defining IETF based communication protocols for
+Mixed Reality multiuser scenes
+
 i.e. the goal is to support something we would denote as
 - Simple Multiuser Scenes - Based On Network Sensor - Global Protocol Spec
       

@@ -4,17 +4,21 @@ This file is the TO DO list for the SP-ARK project:
 Currently we have following Sub-Projects:
 ----------------------------------------
 
-    - INPUT Technical Summary of SMS (Slideset)
+    - INPUT Draft Technical Summary of SMS (Slideset)
     - INPUT Hibernation Reports of SrrTrains v0.01 (12 .odts)
 
 Currently we have following Activities:
 --------------------------------------
 
-    - Update SrrTrains HRs - essential fitness for SP-ARK
+DONE- Update SrrTrains HRs - essential fitness for SP-ARK
           - no wrong information shall be contained
-	  - German parts shall be acceptable by English native people
-    - Update SrrTrains HRs - translate from German to English
+	        - German parts shall be acceptable by English native people
+OPEN- Update SrrTrains HRs - translate from German to English
           - all German parts shall be translated to English or removed
-    - Update SrrTrains HRs - "Arimathea" (step 0033.11 finished)
+OPEN- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished)
+
+Change Log
+----------
 
 2018-01-12 Christoph VALENTIN: initial version of the TO DO List
+2018-02-18 Christoph VALENTIN: done "essential fitness of hibernation reports"
