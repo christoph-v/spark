@@ -10,15 +10,19 @@ Currently we have following Sub-Projects:
 Currently we have following Activities:
 --------------------------------------
 
-DONE- Update SrrTrains HRs - essential fitness for SP-ARK
+DONE- Update SrrTrains HRs - essential fitness for SP-ARK -> v3.0
           - no wrong information shall be contained
 	        - German parts shall be acceptable by English native people
-OPEN- Update SrrTrains HRs - translate from German to English
-          - all German parts shall be translated to English or removed
-OPEN- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished)
+DONE- Update SrrTrains HRs - translate from German to English -> v3.1
+          - update most important: HR 001, 002, 004, 005, 007, 008
+OPEN- Update SrrTrains HRs - translate from German to English -> v3.1
+          - update less important: HR 003, 006, 009, 012
+OPEN- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished) -> v4.0
+          - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-03-30
 
 Change Log
 ----------
 
+2018-03-30 Christoph VALENTIN: translate most important HRs -> English
 2018-01-12 Christoph VALENTIN: initial version of the TO DO List
 2018-02-18 Christoph VALENTIN: done "essential fitness of hibernation reports"
