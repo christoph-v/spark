@@ -4,8 +4,14 @@ This file is the TO DO list for the SP-ARK project:
 Currently we have following Sub-Projects:
 ----------------------------------------
 
-    - INPUT Draft Technical Summary of SMS (Slideset)
-    - INPUT Hibernation Reports of SrrTrains v0.01 (12 .odts)
+INPUT Projects
+    - spark/3rd-party-input/SrrTrains-v0.01/TechnicalSummary
+         Draft Technical Summary of SMS (Slideset)
+    - spark/3rd-party-input/SrrTrains-v0.01/HibernationReports
+         Hibernation Reports of SrrTrains v0.01 (12 .odts)
+         
+OUTPUT Projects
+    - none
 
 Currently we have following Activities:
 --------------------------------------
@@ -16,13 +22,17 @@ DONE- Update SrrTrains HRs - essential fitness for SP-ARK -> v3.0
 DONE- Update SrrTrains HRs - translate from German to English -> v3.1
           - update most important: HR 001, 002, 004, 005, 007, 008
 OPEN- Update SrrTrains HRs - translate from German to English -> v3.1
-          - update less important: HR 003, 006, 009, 012
+          - update less important: HR 006, 009, 012
+OPEN- Update SrrTrains HRs - "LAN Party #3"
+          - maybe we will update HR 003 or even others for the LAN Party #3
 OPEN- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished) -> v4.0
+          - update all that are not "snapshot" - 001/003/005/007/009/011)
           - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-03-30
 
 Change Log
 ----------
 
+2018-03-30 Christoph VALENTIN: refine TO DO List
 2018-03-30 Christoph VALENTIN: translate most important HRs -> English
 2018-01-12 Christoph VALENTIN: initial version of the TO DO List
 2018-02-18 Christoph VALENTIN: done "essential fitness of hibernation reports"
