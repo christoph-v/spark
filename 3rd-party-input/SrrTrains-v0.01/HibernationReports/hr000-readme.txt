@@ -23,9 +23,8 @@ existent as an outcome of SP-ARK.
 Summary
 -------
 Hibernation Report 007 (see below) is OUR MAIN INPUT FOR THE SP-ARK PROJECT
-Hibernation Reports 006, 009 and 012 will be translated to English soon
 Hibernation Report 003 might be updated for LAN Party #3
-Hibernation Reports 001, 003, 005, 007, 009 and 011 will be kept up to date
+Hibernation Reports 001, 005, 007, 009 and 011 will be kept up to date
 
 Hibernation Report 001 - Pieta / Rebase to MIB Core
 ---------------------------------------------------
@@ -62,8 +61,7 @@ Hibernation Report 005 - SRR Objects
 Hibernation Report 006 - MIDAS Best Current Practices
 -----------------------------------------------------
    This hibernation report describes some minor concepts by examplifying them.
-   Current version is 3.0, it will not be updated again (it's a "snapshot")
-   However, it might achieve version 3.1, when it will be translated
+   Current version is 3.1, it will not be updated again (it's a "snapshot")
    
 Hibernation Report 007 - New Concept Paper of SrrTrains v0.01
 -------------------------------------------------------------
@@ -79,8 +77,7 @@ Hibernation Report 008 - POIs, RLOs and RLAs
 Hibernation Report 009 - SMS Facility Loaders
 ---------------------------------------------
    This hibernation report describes one detail of our implementation.
-   Current version is 3.0, it will achieve 4.0, if step 0033.11 will be finished
-   However, it might get an intermediate version 3.1, when it will be translated
+   Current version is 3.1, it will achieve 4.0, if step 0033.11 will be finished
    
 Hibernation Report 010 - Confessiones
 -------------------------------------
@@ -96,6 +93,5 @@ Hibernation Report 012 - New Instance Naming
 --------------------------------------------
    This hibernation report explains some detailed considerations that were done
    at the beginning of step 0033.11.   
-   Current version is 3.0, it will not be updated again (it's a "snapshot")
-   However, it might achieve version 3.1, when it will be translated
+   Current version is 3.1, it will not be updated again (it's a "snapshot")
    

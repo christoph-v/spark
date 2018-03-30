@@ -21,17 +21,18 @@ DONE- Update SrrTrains HRs - essential fitness for SP-ARK -> v3.0
 	        - German parts shall be acceptable by English native people
 DONE- Update SrrTrains HRs - translate from German to English -> v3.1
           - update most important: HR 001, 002, 004, 005, 007, 008
-OPEN- Update SrrTrains HRs - translate from German to English -> v3.1
+DONE- Update SrrTrains HRs - translate from German to English -> v3.1
           - update less important: HR 006, 009, 012
 OPEN- Update SrrTrains HRs - "LAN Party #3"
           - maybe we will update HR 003 or even others for the LAN Party #3
 OPEN- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished) -> v4.0
-          - update all that are not "snapshot" - 001/003/005/007/009/011)
+          - update all that are not "snapshot" - 001/003(?)/005/007/009/011)
           - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-03-30
 
 Change Log
 ----------
 
+2018-03-30 Christoph VALENTIN: translate less important HRs -> English
 2018-03-30 Christoph VALENTIN: refine TO DO List
 2018-03-30 Christoph VALENTIN: translate most important HRs -> English
 2018-01-12 Christoph VALENTIN: initial version of the TO DO List
