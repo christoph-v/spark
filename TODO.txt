@@ -6,15 +6,15 @@ Currently we have following Sub-Projects:
 
 INPUT Projects
     - spark/3rd-party-input/SrrTrains-v0.01/TechnicalSummary
-         Draft Technical Summary of SMS (Slideset)
+         Draft Idea of a Technical Summary of SMS (Slideset)
     - spark/3rd-party-input/SrrTrains-v0.01/HibernationReports
          Hibernation Reports of SrrTrains v0.01 (12 .odts)
          
 OUTPUT Projects
     - none
 
-Currently we have following Activities:
---------------------------------------
+Currently we have following Activities on the RADAR:
+---------------------------------------------------
 
 DONE- Update SrrTrains HRs - essential fitness for SP-ARK -> v3.0
           - no wrong information shall be contained
@@ -23,15 +23,18 @@ DONE- Update SrrTrains HRs - translate from German to English -> v3.1
           - update most important: HR 001, 002, 004, 005, 007, 008
 DONE- Update SrrTrains HRs - translate from German to English -> v3.1
           - update less important: HR 006, 009, 012
+DONE- Small Brushup, remove links to the parents, improve TODO.txt
 OPEN- Update SrrTrains HRs - "LAN Party #3"
           - maybe we will update HR 003 or even others for the LAN Party #3
 OPEN- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished) -> v4.0
           - update all that are not "snapshot" - 001/003(?)/005/007/009/011)
           - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-03-30
+OPEN- START THE SP-ARK PROJECT (WHO?, WHEN?, WHERE?)
 
 Change Log
 ----------
 
+2018-06-10 Christoph VALENTIN: small brush up
 2018-03-30 Christoph VALENTIN: translate less important HRs -> English
 2018-03-30 Christoph VALENTIN: refine TO DO List
 2018-03-30 Christoph VALENTIN: translate most important HRs -> English

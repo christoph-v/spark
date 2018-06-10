@@ -2,12 +2,10 @@
                     Hibernation Reports of SrrTrains v0.01
                     ======================================
                     
-                                                                      2018-03-30     
+                                                                      2018-06-10     
 
 The SrrTrains v0.01 project is currently being in a "CLOSED" state, because we
 are waiting for 3rd party interest to RE-OPEN the project.
-
-Please refer to https://letztersein.wordpress.com/srrtrains-v0-01
 
 The Hibernation Reports are currently waiting in version 3.x (outcome of the
 third step of the hibernation) to be used by the SP-ARK project as input.
@@ -77,7 +75,7 @@ Hibernation Report 008 - POIs, RLOs and RLAs
 Hibernation Report 009 - SMS Facility Loaders
 ---------------------------------------------
    This hibernation report describes one detail of our implementation.
-   Current version is 3.1, it will achieve 4.0, if step 0033.11 will be finished
+   Current version is 3.2, it will achieve 4.0, if step 0033.11 will be finished
    
 Hibernation Report 010 - Confessiones
 -------------------------------------

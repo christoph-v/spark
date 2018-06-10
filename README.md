@@ -1,8 +1,6 @@
 # spark
 Simple Playground to Achieve Required Knowledge
 
-This repository was first hosted at https://github.com/christoph-v/spark.git
-
 Following statements are intended to hold true for this repository
 
 ## Everlasting Statements
@@ -19,10 +17,6 @@ i.e. the goal is to support something we would denote as
 ### The content of this repository is licensed by a GPL 
 
 ## Other Statements
-
-### Statement on 2017-12-08 by https://github.com/christoph-v
-
-Currently, I am hosting a homepage for this repository at http://areasharpa.wordpress.com/spark
 
 ### Statement on 2017-12-02 by https://github.com/christoph-v
 
