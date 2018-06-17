@@ -34,6 +34,7 @@ OPEN- START THE SP-ARK PROJECT (WHO?, WHEN?, WHERE?)
 Change Log
 ----------
 
+2018-06-17 Christoph VALENTIN: created branch devel_arimathea
 2018-06-10 Christoph VALENTIN: small brush up
 2018-03-30 Christoph VALENTIN: translate less important HRs -> English
 2018-03-30 Christoph VALENTIN: refine TO DO List

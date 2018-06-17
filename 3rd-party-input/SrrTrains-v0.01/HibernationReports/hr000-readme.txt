@@ -7,12 +7,8 @@
 The SrrTrains v0.01 project is currently being in a "CLOSED" state, because we
 are waiting for 3rd party interest to RE-OPEN the project.
 
-The Hibernation Reports are currently waiting in version 3.x (outcome of the
-third step of the hibernation) to be used by the SP-ARK project as input.
-
-If the SrrTrains v0.01 project will be re-opened again and hence the
-step 0033.11 of the SrrTrains project might be finished, then the Hibernation
-Reports might achieve version 4.0, which should then be the final state.
+The Hibernation Reports are currently being developed for version 4.x (outcome
+of the "Arimathea" release of SrrTrains v0.01 - step 0033.11).
 
 Envisioned steps 0034, 0035, ..... of the SrrTrains project might be considered
 in SrrTrains v1.0, which might become existent, if the SMS Biotope will become
@@ -28,7 +24,7 @@ Hibernation Report 001 - Pieta / Rebase to MIB Core
 ---------------------------------------------------
    This hibernation report describes the major changes that were done to the
    SRR Framework during the elaboration of the step 0033.10 "Pieta".
-   Current version is 3.1, it will achieve 4.0, if step 0033.11 will be finished
+   Current version is 3.1, it'll achieve 4.0, when step 0033.11 will be finished
  
 Hibernation Report 002 - MMF New
 --------------------------------
@@ -54,7 +50,7 @@ Hibernation Report 005 - SRR Objects
 ------------------------------------
    This hibernation report describes all SRR Objects of the SRR Framework, i.e.
    all railway specific MIDAS Objects.
-   Current version is 3.1, it will achieve 4.0, if step 0033.11 will be finished
+   Current version is 3.1, it'll achieve 4.0, when step 0033.11 will be finished
 
 Hibernation Report 006 - MIDAS Best Current Practices
 -----------------------------------------------------
@@ -64,7 +60,7 @@ Hibernation Report 006 - MIDAS Best Current Practices
 Hibernation Report 007 - New Concept Paper of SrrTrains v0.01
 -------------------------------------------------------------
    This hibernation report is OUR MAIN INPUT FOR THE SP-ARK PROJECT.
-   Current version is 3.1, it will achieve 4.0, if step 0033.11 will be finished
+   Current version is 3.1, it'll achieve 4.0, when step 0033.11 will be finished
 
 Hibernation Report 008 - POIs, RLOs and RLAs
 --------------------------------------------
@@ -75,7 +71,7 @@ Hibernation Report 008 - POIs, RLOs and RLAs
 Hibernation Report 009 - SMS Facility Loaders
 ---------------------------------------------
    This hibernation report describes one detail of our implementation.
-   Current version is 3.2, it will achieve 4.0, if step 0033.11 will be finished
+   Current version is 3.2, it'll achieve 4.0, when step 0033.11 will be finished
    
 Hibernation Report 010 - Confessiones
 -------------------------------------
@@ -85,7 +81,7 @@ Hibernation Report 010 - Confessiones
 Hibernation Report 011 - Unbound Objects (UBOs)
 -----------------------------------------------
    This hibernation report tries to summarize the topics of unbound objects.
-   Current version is 3.0, it will achieve 4.0, if step 0033.11 will be finished
+   Current version is 3.0, it'll achieve 4.0, when step 0033.11 will be finished
 
 Hibernation Report 012 - New Instance Naming
 --------------------------------------------
