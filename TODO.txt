@@ -28,12 +28,13 @@ OPEN- Update SrrTrains HRs - "LAN Party #3"
           - maybe we will update HR 003 or even others for the LAN Party #3
 ONGG- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished) -> v4.0
           - update all that are not "snapshot" - 001/003(?)/005/007/009/011)
-          - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-03-30
+          - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-11-11
 OPEN- START THE SP-ARK PROJECT (WHO?, WHEN?, WHERE?)
 
 Change Log
 ----------
 
+2018-11-11 Christoph VALENTIN: review of the TODO List for master branch
 2018-06-17 Christoph VALENTIN: created branch devel_arimathea
 2018-06-10 Christoph VALENTIN: small brush up
 2018-03-30 Christoph VALENTIN: translate less important HRs -> English
