@@ -26,9 +26,15 @@ DONE- Update SrrTrains HRs - translate from German to English -> v3.1
 DONE- Small Brushup, remove links to the parents, improve TODO.txt
 OPEN- Update SrrTrains HRs - "LAN Party #3"
           - maybe we will update HR 003 or even others for the LAN Party #3
-ONGG- Update SrrTrains HRs - "Arimathea" (step 0033.11 finished) -> v4.0
-          - update all that are not "snapshot" - 001/003(?)/005/007/009/011)
-          - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-11-11
+ONGG- Update SrrTrains HRs - "Arimathea envisioned" (step 0033.11) -> v4.3
+          - update all HRs that are not "snapshot" - 001/003(?)/005/007/009/011)
+          - the SrrTrains v0.01 project is in a "CLOSED" state, as of 2018-12-22
+          - v4.3 describes the release "Arimathea" (step 0033.11) as it is
+            currently envisioned
+             - no mark........all items that have already been done step 0033.10
+             - TODO11.........all items that are envisioned for step 0033.11
+             - TODO12.........all items that are envisioned for step 0033.12
+             - TODO...........all items that are envisioned for step >= 0034
 OPEN- START THE SP-ARK PROJECT (WHO?, WHEN?, WHERE?)
 
 Change Log
