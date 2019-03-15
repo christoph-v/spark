@@ -1,0 +1,117 @@
+1  Scope of the Text
+--------------------
+The following text is written in a spirit of trying to inspire ideas about a
+future application layer protocol for X3D multiuser scenes.
+
+Abbreviations:
+PDU	......Protocol Data Unit – a well defined piece of information that can be
+          piggy backed on the back of some lower layer protocols
+
+2  Assumptions about an X3D MU Protocol ("Protocol X")
+------------------------------------------------------
+
+ 1. "Protocol X" shall define PDUs (and even collections of PDUs) that carry
+    collections of values of states and/or events, which are applicable to X3D
+    MU scenes (the terms "state" and "event" will be defined later in this text)
+    
+   (a) The transmission of the (collections of) PDUs shall be done in a piggy
+       backed way on the back of some transport protocol (e.g. in the message
+       body of SIP messages or HTTP messages)
+   
+   (b) "Protocol X" shall be specified in a "global protocol spec" (GPS)
+ 
+       i. The GPS shall define the PDUs for "protocol X", e.g.
+          A. Login Request/Challenge/Grant (LI-R, LI-CH, LI-G)
+		            ----> LI-R invokes either LI-CH or LI-G
+          B. State Publish and Query Request (SPQR)
+		            ----> invokes SUN back to originator
+		            ----> can invoke SUN to one, some or all scene instances
+          C. State Publish Request (SPRE)
+		            ----> can invoke SUN to one, some or all scene instances
+          D. State Change Request (SCR)
+		            ----> can invoke SUN to one, some or all scene instances
+          E. State Update Notification (SUN)
+          F. Subscribe To State (STS)
+		            ----> can invoke SUN back to originator (state exists already)
+          G. Broadcast Event (BEV)
+          H. Route Event (REV)
+          I. and so on (these are just funny examples !!!!!!!!!!!!!!!!!!!!!!!!!)
+ 
+       ii. The GPS shall define communication paths, which can be taken by the
+           PDUs. One, some or all of the following communication paths shall be
+           taken:
+          A. From one scene instance to one server (hierarchy)
+          B. From one scene instance to one server (hierarchy) and then – if
+             a response PDU is invoked – back to the originating, to some or
+             to all scene instances of a multiuser session
+          C. From a server (hierarchy) to one, some or all scene instances of
+             a multiuser session
+          D. From one scene instance to one, some or all scene instances of a
+             multiuser session
+          E. From one scene instance to one scene instance and then – if a
+             response PDU is invoked – back to the originating, to some or to
+             all scene instances of a multiuser session
+          F. and so on (these are just funny examples !!!!!!!!!!!!!!!!!!!!!!!!!)
+ 
+       iii. A syntax for the PDUs shall be defined (e.g. an XML schema)
+       
+       iv. The GPS shall publish best current practices about how the routing of
+           PDUs (and of collections of PDUs) via the defined communication paths
+           can be combined to create senseful use cases.
+   
+   (c) "Supplementary standards" shall define about how the protocol shall be
+       transmitted over the possible transport protocols. This shall be
+       compliant with the decision that WebRTC + AJAX shall be used, if the 3D
+       scene runs in a browser
+ 
+       i. Supplementary Standard "Protocol X over transport protocol 1"
+ 
+       ii. Supplementary Standard "Protocol X over transport protocol 2"
+       
+       iii. and so on ad. inf.
+
+   (d) The GPS shall define general requirements for the used transport protocol
+       
+       i. Security
+       
+       ii. Needed infrastructure for routing
+
+       iii. acknowledged transmission, checksums, error rates, ......
+       
+       iv. and so on ......
+
+ 2. Note: states are variables that describe a part of the shared state of a
+          scene.
+    A scene instance (or a part of a scene instance) needs the current value of
+    all of the states that are related to it (i.e. its "current shared state")
+    to get initialized, after it (the (part of the) scene instance) has been
+    (down)loaded from the data storage or from the 3D Web.
+
+    Examples of states:
+   
+   (a) position of an avatar (SFVec3f)
+   (b) orientation of an avatar (SFRotation)
+   (c) openness of a door (SFBool)
+   (d) velocity of a train (SFFloat)
+   (e) position of a train (MFString)
+   (f) content of a key container (MFString)
+
+ 3. Note: events describe happenings that have happened in one scene instance
+          and that need to be communicated to all, to some or to one scene
+          instance or to the server (hierarchy)
+          
+    Examples of events:
+    
+   (a) user X has touched geometry Y
+   (b) user X wants to change velocity of train Y by amount Z m/sec
+   (c) user X wants to toggle openness of door Y
+   (d) user X has left the game -> remove avatars
+
+
+
+
+
+
+
+
+

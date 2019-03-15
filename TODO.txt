@@ -9,6 +9,7 @@ INPUT Projects
          Draft Idea of a Technical Summary of SMS (Slideset)
     - spark/3rd-party-input/SrrTrains-v0.01/HobbyReports
          Hobby Reports of SrrTrains v0.01 (12 .odts)
+    - spark/3rd-party-input/esdp-bs
          
 OUTPUT Projects
     - none
@@ -29,11 +30,13 @@ OPEN- Update SrrTrains HRs - "LAN Party #3"
 DONE- Update SrrTrains HRs - "Arimathea envisioned" (step 0033.11) -> v4.3
           - update all HRs that are not "snapshot" - 001/003(?)/005/007/009
 OPEN- Update SrrTrains HRs - "Arimathea finished" (not before 2020)
+DONE- First version of esdp-bs.txt
 OPEN- START THE SP-ARK PROJECT (WHO?, WHEN?, WHERE?)
 
 Change Log
 ----------
 
+2019-03-17 Christoph VALENTIN: created input subproject "ESDP BS"
 2018-12-23 Christoph VALENTIN: SrrTrains v0.01 Hobby Reports --> v4.3
 2018-11-11 Christoph VALENTIN: review of the TODO List for master branch
 2018-06-17 Christoph VALENTIN: created branch devel_arimathea

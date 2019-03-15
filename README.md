@@ -1,5 +1,5 @@
 # spark
-Simple Playground to Achieve Required Knowledge
+Simple Playground - to Achieve Required Knowledge
 
 Following statements are intended to hold true for this repository
 
