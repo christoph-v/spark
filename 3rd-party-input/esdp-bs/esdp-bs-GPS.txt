@@ -111,9 +111,24 @@ PDU	......Protocol Data Unit – a well defined piece of information that can be
     This is the reason why this file is named esdp-bs-GPS
     ESDP Brain Storming for the Global Protocol Spec
 
-
-
-
-
-
-
+ 5. The GPS shall define the ways of how NS states and NS events will be agglo-
+    merated in a multiuser session, e.g. as follows
+    
+   (a) States and Events will be agglomerated with respect to so-called streams
+   (b) Each network sensor shall define one unique stream name and this shall be
+       used in the network traffic to identify the stream of states/events
+   (c) states and events to be sent to the network shall be agglomerated by each
+       network sensor during the run of an event cascade.
+   (d) After the event cascade has finished, all agglomerated states and events
+       of one network sensor shall be written into one PDU (collection), as long
+       as they have the same destination(s) in the network (and may therefore be
+       transmitted in one message of the transport protocol)
+   (e) The PDUs of different network sensors may be collected into one and the
+       same message of the transport protocol, if those PDUs have the same
+       destination(s) in the network
+   (f) the states and events received in one and the same message of the trans
+       port protocol (PDU or PDU collection) shall be induced into the scene
+       during the same event cascade (with the same local timestamp)
+   ??? is it sufficient to agglomerate states and events "per network sensor"
+       i.e. "per stream", or do we need some mechanism to agglomerate
+       states/events from different network sensors ???
