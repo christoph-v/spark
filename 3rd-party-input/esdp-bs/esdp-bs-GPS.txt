@@ -31,11 +31,11 @@ PDU	......Protocol Data Unit – a well defined piece of information that can be
           D. State Change Request (SCR)
 		            ----> can invoke SUN to one, some or all scene instances
           E. State Update Notification (SUN)
-          F. Subscribe To State (STS)
-		            ----> can invoke SUN back to originator (state exists already)
+          F. Subscribe To Stream (STS)
+		            ----> can invoke SUN back to originator, if states exist already
           G. Broadcast Event (BEV)
           H. Route Event (REV)
-          I. and so on (these are just funny examples !!!!!!!!!!!!!!!!!!!!!!!!!)
+          I. and so on (these are just funny examples !)
  
        ii. The GPS shall define communication paths, which can be taken by the
            PDUs. One, some or all of the following communication paths shall be
@@ -51,7 +51,7 @@ PDU	......Protocol Data Unit – a well defined piece of information that can be
           E. From one scene instance to one scene instance and then – if a
              response PDU is invoked – back to the originating, to some or to
              all scene instances of a multiuser session
-          F. and so on (these are just funny examples !!!!!!!!!!!!!!!!!!!!!!!!!)
+          F. and so on (these are just funny examples !)
  
        iii. A syntax for the PDUs shall be defined (e.g. an XML schema)
        
@@ -107,7 +107,9 @@ PDU	......Protocol Data Unit – a well defined piece of information that can be
    (c) user X wants to toggle openness of door Y
    (d) user X has left the game -> remove avatars
 
-
+ 4. The "Protocol X" could e.g. get the name "Event/State Description Protocol"
+    This is the reason why this file is named esdp-bs-GPS
+    ESDP Brain Storming for the Global Protocol Spec
 
 
 
