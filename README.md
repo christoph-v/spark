@@ -3,6 +3,15 @@ Simple Playground - to Achieve Required Knowledge
 
 Following statements are intended to hold true for this repository
 
+## How to Contribute
+
+If you want to contribute, please create an account at GitHub, if you don't have
+any, and and then
+- Clone the Repository to your account
+- Create and Checkout your Developer Branch (at your account)
+- Create ONE commit with your changes (at your account)
+- Create Pull Request (here at github.com/christoph-v/spark)
+
 ## Everlasting Statements
 
 ### The GOAL of this project can be described by SMS-BONES-GPS
