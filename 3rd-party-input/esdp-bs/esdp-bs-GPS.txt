@@ -1,33 +1,40 @@
 1  Scope of the Text
 --------------------
 The following text is written in a spirit of trying to inspire ideas about a
-future application layer protocol for X3D multiuser scenes.
+future application layer protocol for simple 3D multiuser scenes.
+
+It is based on experiences with an example Network Sensor implementation, which
+were made in the course of the SrrTrains v0.01 hobby project.
 
 Protocol X......Working Title for the Event/State Description Protocol ESDP
-GPS.............Global Protocol Spec - Working Title for some document, which
-                will specifiy Protocol X
+GPS.............Global Protocol Spec - Working Title for some document that
+                could specifiy Protocol X
 PDU.............Protocol Data Unit
 
-2  Some Draft Considerations about "Protocol X"
------------------------------------------------
+2  Some Draft Considerations about Protocol X (not reviewed yet)
+---------------------------------------------
 
  1. Protocol X shall define PDUs (and even collections of PDUs) that carry
-    collections of values of states and/or events, which are applicable to X3D
-    MU scenes (the terms "state" and "event" will be defined later in this text)
+    collections of values of states and/or events, which are applicable to
+    simple 3D multiuser scenes (the terms "state" and "event" will be meditated
+    later in this text)
     
-   (a) The transmission of the (collections of) PDUs shall be done in a piggy
-       backed way on the back of some transport protocol (e.g. in the message
-       body of SIP messages or HTTP messages)
+   (a) The transmission of the (collections of) PDUs shall be done by submitting
+       the (collections of) PDUs as payload to API(s) of some protocol stack(s)
+       of lower layer "transport" protocols (e.g. as the message body of SIP
+       messages or of HTTP messages) and by unpacking the (collections of) PDUs
+       from the lower layer "transport" protocols via the API(s) of some
+       protocol stack(s)
    
-   (b) "Protocol X" shall be specified in a "global protocol spec" (GPS)
+   (b) Protocol X shall be specified in a global protocol spec (GPS)
  
-       i. The GPS shall define the PDUs for "protocol X", e.g.
+       i. The GPS shall define the PDUs for protocol X, e.g.
           A. Login Request/Challenge/Grant (LI-R, LI-CH, LI-G)
 		            ----> LI-R invokes either LI-CH or LI-G
-          B. State Publish and Query Request (SPQR)
+          B. State Purge and Query Request (SPQR)
 		            ----> invokes SUN back to originator
 		            ----> can invoke SUN to one, some or all scene instances
-          C. State Publish Request (SPRE)
+          C. State Update Request (SURE)
 		            ----> can invoke SUN to one, some or all scene instances
           D. State Change Request (SCR)
 		            ----> can invoke SUN to one, some or all scene instances
@@ -36,23 +43,21 @@ PDU.............Protocol Data Unit
 		            ----> can invoke SUN back to originator, if states exist already
           G. Broadcast Event (BEV)
           H. Route Event (REV)
-          I. and so on (these are just funny examples !)
  
        ii. The GPS shall define communication paths, which can be taken by the
-           PDUs. One, some or all of the following communication paths shall be
-           taken:
-          A. From one scene instance to one server (hierarchy)
-          B. From one scene instance to one server (hierarchy) and then – if
-             a response PDU is invoked – back to the originating, to some or
-             to all scene instances of a multiuser session
-          C. From a server (hierarchy) to one, some or all scene instances of
-             a multiuser session
+           PDUs. E.g. one, some or all of the following communication paths
+           shall be supported by the "transport" protocols:
+          A. From one scene instance to one collaboration server [hierarchy]
+          B. From one scene instance to one collaboration server [hierarchy]
+             and then – if a response PDU is invoked – back to the originating,
+             to some or to all scene instances of a multiuser session
+          C. From a collaboration server [hierarchy] to one, some or all scene
+             instances of a multiuser session
           D. From one scene instance to one, some or all scene instances of a
              multiuser session
           E. From one scene instance to one scene instance and then – if a
              response PDU is invoked – back to the originating, to some or to
              all scene instances of a multiuser session
-          F. and so on (these are just funny examples !)
  
        iii. A syntax for the PDUs shall be defined (e.g. an XML schema)
        
@@ -60,8 +65,35 @@ PDU.............Protocol Data Unit
            PDUs (and of collections of PDUs) via the defined communication paths
            can be combined to create senseful use cases.
    
-   (c) "Supplementary standards" shall define about how the protocol shall be
-       transmitted over the possible transport protocols. This shall be
+       v. The GPS shall define the ways of how NS states and NS events will be
+          agglomerated in a multiuser session, e.g. as follows
+          A. States and events will be agglomerated with respect to so-called
+             streams
+          B. Each network sensor shall define one unique stream name and this
+             shall be used in the network traffic to identify the stream of
+             states/events
+          C. States and events to be sent to the network shall be agglomerated
+             by each network sensor during the run of an event cascade.
+          D. After the event cascade has finished, all agglomerated states and
+             events of one network sensor shall be written into one PDU
+             (collection), as long as they have the same destination(s) in the
+             network (and may therefore be transmitted by one single message of 
+             the transport protocol)
+          E. The PDUs of different network sensors may be collected into one and
+             the same message of the transport protocol, if those PDUs have the
+             same destination(s) in the network
+          F. The states and events received in one single message of the
+             transport protocol (with in a PDU or a PDU collection) shall be
+             induced into the scene during the same event cascade (with the same
+             local timestamp)
+          G. ??? is it sufficient to agglomerate states and events "per network
+             sensor"  =  "per stream", or do we need some mechanism to
+             agglomerate states/events from different network sensors ???
+             In this case a network sensor could be identified by 
+                streamName + sensorId
+
+   (c) "Supplementary standards" shall define about how the protocol X shall be
+       transmitted over the possible "transport" protocols. This shall be
        compliant with the decision that WebRTC + AJAX shall be used, if the 3D
        scene runs in a browser
  
@@ -71,16 +103,15 @@ PDU.............Protocol Data Unit
        
        iii. and so on ad. inf.
 
-   (d) The GPS shall define general requirements for the used transport protocol
+   (d) The GPS will suggest general requirements for the used transport protocol
        
-       i. Security
+       i. Security (encryption, authentication, authorization, integrity)
        
-       ii. Needed infrastructure for routing
+       ii. Needed routing capabilities
 
-       iii. acknowledged transmission, checksums, error rates, ......
+       iii. acknowledged transmission required? (I guess yes), checksums,
+            error rates, response times, maximum PDU size......
        
-       iv. and so on ......
-
  2. Note: states are variables that describe a part of the shared state of a
           scene.
     A scene instance (or a part of a scene instance) needs the current value of
@@ -112,24 +143,3 @@ PDU.............Protocol Data Unit
     This is the reason why this file is named esdp-bs-GPS
     ESDP Brain Storming for the Global Protocol Spec
 
- 5. The GPS shall define the ways of how NS states and NS events will be agglo-
-    merated in a multiuser session, e.g. as follows
-    
-   (a) States and Events will be agglomerated with respect to so-called streams
-   (b) Each network sensor shall define one unique stream name and this shall be
-       used in the network traffic to identify the stream of states/events
-   (c) states and events to be sent to the network shall be agglomerated by each
-       network sensor during the run of an event cascade.
-   (d) After the event cascade has finished, all agglomerated states and events
-       of one network sensor shall be written into one PDU (collection), as long
-       as they have the same destination(s) in the network (and may therefore be
-       transmitted in one message of the transport protocol)
-   (e) The PDUs of different network sensors may be collected into one and the
-       same message of the transport protocol, if those PDUs have the same
-       destination(s) in the network
-   (f) the states and events received in one and the same message of the trans
-       port protocol (PDU or PDU collection) shall be induced into the scene
-       during the same event cascade (with the same local timestamp)
-   ??? is it sufficient to agglomerate states and events "per network sensor"
-       i.e. "per stream", or do we need some mechanism to agglomerate
-       states/events from different network sensors ???
