@@ -1,0 +1,109 @@
+1  Scope of the Text
+--------------------
+The following text is written in a spirit of trying to inspire ideas about a
+future application layer protocol for X3D multiuser scenes.
+
+Abbreviations:
+PDU	......Protocol Data Unit – a well defined piece of information that can be
+          piggy backed on the back of some lower layer protocols
+Login Server ......a server that has the knowledge of how to handle the creden-
+                   tials of a user
+Server [Hierarchy] .......a server or a hierarchy of servers that can collect
+                          requests from scene instances and distribute notifi-
+                          cations about state change to all scene instances of
+                          a multiuser session
+
+2 Some Draft Considerations about PDUs of "Protocol X"
+------------------------------------------------------
+
+LI-R / LI-CH / LI-G
+-------------------
+Login Request: A PDU, which is sent from one scene instance to the login server
+               that is responsible for the user, who wants to login at this
+               scene instance
+Login Challenge: A Login Request may invoke a Login Challenge, which is sent
+                 back to the scene instance in order to proceed with the
+                 authentication and authorization procedure for this user.
+                 When the scene instance receives the Login Challenge, it must
+                 send another Login Request with the final credentials
+Login Grant: The Login Request with the final credentials invokes a Login Grant
+             which is sent back to the scene instance. Now the scene instance
+             grants access to the user and authorizes actions according to the
+             user profile
+
+SPRE, SUN
+---------
+State Publish Request: A PDU, which is sent from one scene instance to the
+"Reset State"          server [hierarchy] or to the scene instance, which owns
+                       the controller role for the stream (Network Sensor) in
+                       question
+
+                       invoked by set_<state> event(s) at the interface of the
+                       Network Sensor or by similar means of similar SW objects
+
+                       At the server [hierarchy] or at the controller instance,
+                       this PDU invokes a SUN PDU with the new values of all
+                       states that have been reset
+         
+State Update Notification: A PDU, which is sent by the server [hierarchy] or by
+"Change State"             the controller instance of the stream to all scene
+                           instances that have subscribed to the stream or to
+                           all scene instances
+                           
+                           It contains the new or current value (if the value
+                           has not been updated) of some or all states of a 
+                           stream 
+                           
+                           it invokes the <state>_changed event(s) at the
+                           interface of the network sensor or some similar
+                           means of similar SW objects
+                       
+SCR
+---
+State Change Request: A PDU, which is sent from one scene instance to the server
+"Server Side Calculations"  [hierarchy] or to the scene instance that owns the
+                            controller role for the sream (Network Sensor) in
+                            question
+                            
+                      It indicates for each affected state a required operation
+                      and the required parameter value for the operation
+
+                      invoked by add_<state>, inc_<state>, ...... or similar
+                      event(s) at the interface of the Network Sensor or by
+                      similar means of similar SW objects
+
+                      At the server [hierarchy] or at the controller instance,
+                      this PDU invokes a SUN PDU with the new values of all
+                      states that have been part of the SCR.
+
+BEV, REV
+--------
+Broadcast Event: A PDU, which is sent
+"Event Distribution"   a) from one scene instance to the server [hierarchy] and
+                          then to all scene instances that have subscribed to
+                          the stream or to all scene instances
+                       b) from one scene instance to all scene instances
+                 
+                 it is invoked by evt_<event> and it invokes <event>_evt at the
+                 interface of the Network Sensor or at similar means of similar
+                 SW objects
+
+Route Event: A PDU, which is routed from one scene instance to the scene
+"Client Side Calculations"     instance that owns the controller role for the
+                               stream (Network Sensor)
+
+STS
+---
+Subscribe to Stream: A PDU, which is sent by a Scene Instance that wants to
+                     initialize one or more Network Sensors
+
+SPQR
+----
+State Purge and Query Request: A special PDU to annihilate the value of states
+at the server
+                               
+Note
+----
+The controller role is a state like any other, it is an SFInt32, which holds the
+sessionId of the scene instance that owns the controller role
+

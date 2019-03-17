@@ -3,14 +3,15 @@
 The following text is written in a spirit of trying to inspire ideas about a
 future application layer protocol for X3D multiuser scenes.
 
-Abbreviations:
-PDU	......Protocol Data Unit – a well defined piece of information that can be
-          piggy backed on the back of some lower layer protocols
+Protocol X......Working Title for the Event/State Description Protocol ESDP
+GPS.............Global Protocol Spec - Working Title for some document, which
+                will specifiy Protocol X
+PDU.............Protocol Data Unit
 
-2  Assumptions about an X3D MU Protocol ("Protocol X")
-------------------------------------------------------
+2  Some Draft Considerations about "Protocol X"
+-----------------------------------------------
 
- 1. "Protocol X" shall define PDUs (and even collections of PDUs) that carry
+ 1. Protocol X shall define PDUs (and even collections of PDUs) that carry
     collections of values of states and/or events, which are applicable to X3D
     MU scenes (the terms "state" and "event" will be defined later in this text)
     
