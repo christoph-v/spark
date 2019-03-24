@@ -1,0 +1,115 @@
+1  Scope of the Text
+--------------------
+The following text is written in a spirit of trying to inspire ideas about a
+future application layer protocol for X3D multiuser scenes.
+
+It is based on experiences with an example Network Sensor implementation, which
+were made in the course of the SrrTrains v0.01 hobby project.
+
+2 Some Draft Considerations about ESDP PDUs Embedded into SIP (not reviewed yet)
+-------------------------------------------------------------
+
+The SIP protocol (RFC 3261) could be used to transport ESDP PDUs in its message
+bodies and to control a voice chat session that runs in parallel to the 3D Multi
+User Session.
+
+Real time state update could be carried by RTP over UDP or by SCTP (these are
+just suggestions)
+
+Only one Web3D Client shown!!  The multiuser session consists of more than one!!
+
+   +--------------+              SIP (carrying ESDP)       +-------------+
+   | Web3D Client | ---------------------------------------| SIP Server  |
+   +--------------+ \                                      +-------------+
+                     \                                            |
+                      \                                           |
+                       \                                          | 3D Ctrl. I/f
+                        \                                         | carrying
+                         \                                        | ESDP
+                          \                                       |
+                           \  real time state update       +-------------+
+                            +------------------------------| Coll. Srv.  |
+                                                           +-------------+
+                                                          
+2.1 Login (i.e. "Join Session")  (not reviewed yet)
+-------------------------------
+
+   a) Login Request
+   ----------------
+                        INVITE (SDP,LI-R)
+     Web3D Client       -------------------------->    SIP Server + Coll. Srv.                                 
+   
+   b) Login Challenge
+   ------------------
+                        183 Session Progress (SDP,LI-CH)
+     Web3D Client       <--------------------------    SIP Server + Coll. Srv.                                 
+
+   c) Login Request (after Challenge)
+   ----------------------------------
+                        UPDATE (SDP,LI-R)
+     Web3D Client       -------------------------->    SIP Server + Coll. Srv.                                 
+
+   d) Login Grant
+   --------------
+                        200 OK INVITE (LI-G)
+     Web3D Client       <--------------------------    SIP Server + Coll. Srv.                                 
+
+   e) Update Communication State (Information about all particpants)
+   --------------
+                        INFO (SUN)
+     Web3D Client       <--------------------------    SIP Server + Coll. Srv.                                 
+
+     With this SUN the Web3D Client is informed about all
+        - sessionIds that are part of the session
+        - users and their avatar URLs and their userIds
+        - tbd.
+                  
+2.2 Initialize Network Sensor(s)  (not reviewed yet) 
+--------------------------------
+
+   a) Subscribe to Stream(s)
+   -------------------------
+                        INFO (STS, STS, ......)
+     Web3D Client       -------------------------->    SIP Server + Coll. Srv.                                 
+
+   b) Initialize the states of (some) network sensor(s)
+   ----------------------------------------------------
+                        200 OK INFO (SUN, SUN, ......)
+     Web3D Client       <--------------------------    SIP Server + Coll. Srv.                                 
+
+2.3 Reset State(s)  (not reviewed yet) 
+------------------
+
+   a) Reset State(s)
+   -----------------
+                        INFO (SURE, SURE, ......)
+     Web3D Client       -------------------------->    SIP Server + Coll. Srv.                                 
+
+   b) Update Notification to All(!) Clients that have Subscribed That Stream(s)
+   ----------------------------------------------------------------------------
+                        INFO (SUN, SUN, ......)
+     Web3D Client       <--------------------------    SIP Server + Coll. Srv.                                 
+
+2.3 Broadcast Event(s)  (not reviewed yet) 
+----------------------
+
+   a) Broadcast Event(s)
+   ---------------------
+                        INFO (BEV, BEV, ......)
+     Web3D Client       -------------------------->    SIP Server + Coll. Srv.                                 
+
+   b) Event Notification to All(!) Clients that have Subscribed That Stream(s)
+   ---------------------------------------------------------------------------
+                        INFO (BEV, BEV, ......)
+     Web3D Client       <--------------------------    SIP Server + Coll. Srv.                                 
+
+2.4 And so on................
+-----------------------------
+
+Tbd.
+   - 4th use case
+   - logout
+   - another user logs in
+   - another user logs out
+   - real time state update
+   - ......   
