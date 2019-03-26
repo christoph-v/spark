@@ -1,0 +1,33 @@
+Gesendet: Dienstag, 26. März 2019 um 11:37 Uhr
+Von: "John Carlson" <yottzumm@gmail.com>
+An: "Christoph Valentin" <christoph.valentin@gmx.at>, Theo <theodor.scherney@utanet.at>, "x3d-publicweb3d.org" <x3d-public@web3d.org>, "Markus Sonntag" <markus.sonntag@tmo.at>, "Robert Eberl" <robert.eberl@atos.net>
+Betreff: RE: [x3d-public] SP-ARK - ready to start
+
+Perhaps you can get some inspiration from my multiuser tag, cards, and chat program:
+
+https://quiet-forest-75069.herokuapp.com
+https://github.com/coderextreme/pc.multiplayer
+
+I have patched the high vulnerabilities in this, but a moderate one still exists in node-rest-client (the rest of the vulnerabilities are in dev code). The suggestion is to switch to axios, but I don’t see as axios provides for $ variable substitution.  It looks like node-rest-client won’t be fixed, so if you want to contribute a patch to my code which installs axios (I think the rest code is in app.js), that would be most welcome.   Node-rest-client is not vital to the running of app.js, and the metaServer code may be removed.  However, it’s nice to keep track of all the servers running.
+I am not currently prepared to start on another multiuser project right now.
+One thing that could be done is add a X3DOM or X_ITE front end.
+There’s  a basic protocol sitting on top of socket.io there.  Reviews of the protocol are welcome, but not returned in kind!
+
+Good luck with SP-ARK!
+
+John
+Sent from Mail for Windows 10
+
+From: Christoph Valentin
+Sent: Monday, March 25, 2019 12:00 AM
+To: Theo; x3d-publicweb3d.org; Markus Sonntag; Robert Eberl
+Subject: [x3d-public] SP-ARK - ready to start
+
+Dear all
+The repository of the SP-ARK project has received some updates during the last one and a half year. All this can be described by the metaphor of “loading some fusibles into an oven, where the fire can be ignited”.
+Now, when we have provisioned the first three text files of “THE BRAINSTORMING”, then it is possible to start THE SP-ARK PROJECT.
+It’s up to you to contribute or not. It’s your stuff.
+https://areasharpa.blog/2019/03/25/spark24-ready-to-start/
+Have fun,
+Christoph
+
