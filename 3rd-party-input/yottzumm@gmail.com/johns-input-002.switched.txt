@@ -1,0 +1,45 @@
+Gesendet: Mittwoch, 27. März 2019 um 04:21 Uhr
+Von: "John Carlson" <yottzumm@gmail.com>
+An: "Christoph Valentin" <christoph.valentin@gmx.at>
+Cc: Theo <theodor.scherney@utanet.at>, "x3d-publicweb3d.org" <x3d-public@web3d.org>,
+    "Markus Sonntag" <markus.sonntag@tmo.at>, "Robert Eberl" <robert.eberl@atos.net>
+Betreff: RE: RE: [x3d-public] SP-ARK - ready to start
+
+I switched from node-rest-client to node-rest-client-patched.
+
+
+John
+
+
+Sent from Mail for Windows 10
+
+
+From: Christoph Valentin
+Sent: Tuesday, March 26, 2019 2:38 PM
+To: John Carlson
+Cc: Theo; x3d-publicweb3d.org; Markus Sonntag; Robert Eberl
+Subject: Aw: RE: [x3d-public] SP-ARK - ready to start
+
+
+Thank you John,
+
+ 
+
+I felt free to store your input to the SP-ARK project
+
+https://github.com/christoph-v/spark/tree/master/3rd-party-input/yottzumm%40gmail.com
+
+ 
+
+and to create a fresh issue
+
+https://github.com/christoph-v/spark/issues
+
+ 
+
+Congrats, you are the first, who inputs to this project :-)
+
+ 
+
+Christoph
+
