@@ -1,0 +1,79 @@
+Gesendet: Sonntag, 31. März 2019 um 20:01 Uhr
+Von: "John Carlson" <yottzumm@gmail.com>
+An: "X3D Graphics public mailing list" <x3d-public@web3d.org>
+Betreff: [x3d-public] Semantics of X3D Work. How do these 
+                      operators/verbs/actions/predicates fit into the X3D ontology?
+
+Predicates for Work: (Christoph, read last line of email)
+
+
+Prototype/Design/Storyboard
+Act/Perform/Operate
+Build/Script/Develop
+Research and Brainstorm
+Prepare/Plan/Train
+Direct/Desire/Specify/Select/Goal Set/Target
+Strategize
+Discuss/Trade/Network/Meet (related to Input/Output from previous email)
+Handle/Delegate
+
+I’ll call this 90’s and 00’s thinking “my work generation”
+
+I’m looking for an ontology for work, in particular the top level predicates or
+verbs that all work verbs are a subclass of. For example, much of this came out
+of the military’s ontology namely:
+
+Operations
+Logistics
+Tactics
+Strategy
+
+I’ll call the latter “70’s thinking.”  I was introduced to it in the late 80’s though
+
+
+What is the process or system behind X3D? What is 10’s thinking? What is 20’s
+thinking? Do we dare ontologize our work?
+
+If you look into the 70’s thinking, you can see why AI was focused on Scripts
+and Goals. Now that we’re “agile,” what verbs do we use to describe work?
+Collaborate? Is that the top level predicate? How is this reflected in computer
+science research on semantics?
+
+Would it be useful to look at a Thesaurus?   I feel like an old geezer bringing
+up ancient technology.
+
+If we’re creating 3D virtual worlds, why not create a virtual world we can work
+in?  Can I buy an office “at” Amazon? How might “buying an office” invert the
+work world? Can I invest in virtual offices?
+
+Do we need a X3D work working group under the semantic group? “X3D in the
+working world”
+
+What difficulties might be faced bringing our work into virtual reality or
+augmented reality?   What can we help with?  Or do we need to bring computers
+out of their fancy boxes, ala dynamicland?   What is this thing we don’t use
+to program, the webcam?  Here are 2 more verbs we might use in the 20’s:
+
+Capture (beyond motion capture, capturing intent)
+Project
+
+Gamers already have this cold.
+
+Where is Second Life and Open Croquet these days?   What can we learn from them
+to not repeat?  How do we enable 3D in work?
+
+So 3 predicates, Capture, Collaborate, Project (Capture/Project is I/O).
+Others?
+
+What does Collaborate look like?  Is it more I/O? Is it more than just humans
+now?  How does a chat bot ask questions of me?
+
+How do we input and output collaborations?  Git and SVN?  Can we duplicate
+Git’s success for other professsions?  Is anyone using git to store virtual
+worlds? Michaelis?
+
+Is there a concept of capturing a collaboration in a virtual world?
+What file format is this?  Christoph?
+
+John
+

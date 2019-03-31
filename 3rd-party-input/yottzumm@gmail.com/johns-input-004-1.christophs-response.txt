@@ -1,0 +1,47 @@
+John,
+
+I am not a scientist. I am a simple telco programmer, who's done a few
+considerations about virtual universes during a hobby project.
+
+Anyway, I will do my best.
+
+>>>>>>>>>> Is there a concept of capturing a collaboration in a virtual world?
+What file format is this?  Christoph?
+
+Collaboration is an activity that is done by subjects. You can store logs about
+a collaboration, but a collaboration per se is not a file format, as far as I
+think to understand.
+
+For virtual universes, I see three levels of collaboration.
+ 
+1) Collaborating on the construction of Composite Scenes.
+
+   We need some BCPs about how to make scenes from components (i.e. from
+   geographic infrastructure, avatars, models, modules, ......)
+
+   Each component can be sourced by a different project/repository. File format
+   is any Web3D format (vrml, x3d, ......)
+
+   Maybe some tools will be needed to "compile" composite scenes from components.
+
+   Some community could virtually gather every now and then to "put the
+   components together for on-line collaboration (3)"
+
+2) Collaborating on one component
+
+   Standard git / svn / ..... procedures
+
+3) on-line collaboration
+
+   N users collaborate in a multiuser scene to
+
+      - add/remove objects to/from the scene during runtime
+      - change the network state of objects
+      - send network events to objects
+      - and so on
+
+(1) and (2) would use x3d / vrml / ...... file format
+(3) format of network states and events tbd.
+
+All the best
+Christoph

@@ -1,0 +1,79 @@
+Gesendet: Sonntag, 31. März 2019 um 22:33 Uhr
+Von: "John Carlson" <yottzumm@gmail.com>
+An: "Christoph Valentin" <christoph.valentin@gmx.at>,
+    "X3D Graphics public mailing list" <x3d-public@web3d.org>
+Cc: "Sven-Erik Tiberg" <luletibbe@gmail.com>
+Betreff: RE: New X3D network working group suggestion: Standardsforcollaboration
+         I/O, processing and storage (SP-ARK)
+
+The thing is, the competition will be in the open…I can always open the main
+scene in source-mode to see which other inlines I am competing with, copy their
+networking code if it’s open source, etc.  I guess we need to allocate a space
+for each inline in the main scene, perhaps with Transforms. Then we will have
+to limit the Inline to consume a certain space. Hmm seems like some work.
+
+John
+
+--------------------------------------------------------------------------------
+From: John Carlson
+Sent: Sunday, March 31, 2019 3:20 PM
+To: Christoph Valentin; X3D Graphics public mailing list
+Cc: Sven-Erik Tiberg
+Subject: RE: New X3D network working group suggestion: Standardsforcollaboration
+             I/O, processing and storage (SP-ARK)
+
+    SP-ARK is dedicated to the use (and support) of X3Dv4 [ USE, SUPPORT ]
+    2) basically, the playground is open to anybody, who is interested in simple
+       multiuser scenes [ INTEREST, FOCUS ]
+    3) probably we will implement some demo application maybe even a server
+       (depends on support) [ IMPLEMENT ]
+    4) Goal 1: help the Web3D Consortium in defining an application layer
+       protocol for the Network Sensor [ DEFINE ]
+
+
+    8) SP-ARK has not been started yet, but with this e-mail the probability of
+       a start increases :-)  [ START ]
+
+
+I am suggesting if we use GitHub, we may not even need a centralized server.
+Users may upload a “peer repo id” to GitHub main repo (using pull requests for
+access control) and each X3D client of a scene may use an Inline to load the
+peer repo id’s scenes, found by searching for .x3d, … etc under the peer repo id.
+Can we use the SP-ARK repo as the main repo, and do you have a URL for loading
+the main scene into my browser?  Thanks!
+
+Then each Inline will support different styles of application layer networking
+per their author, and may the best party be successfully in connecting with
+everyone else! Anyone want to start a corewar game?
+
+What will be the javascript includes on the main scene?
+
+John.
+
+--------------------------------------------------------------------------------
+
+Gesendet: Sonntag, 31. März 2019 um 21:47 Uhr
+Von: "Christoph Valentin" <christoph.valentin@gmx.at>
+An: "John Carlson" <yottzumm@gmail.com>, 
+    "X3D Graphics public mailing list" <x3d-public@web3d.org>
+Betreff: Re: [x3d-public] New X3D network working group suggestion: Standards
+                          for collaboration I/O, processing and storage (SP-ARK)
+John,
+
+Of course I will add these ideas to the collection of inputs.
+
+
+>>>>>>>>What do you view as the primary SP-ARK actions?
+1) SP-ARK is dedicated to the use (and support) of X3Dv4
+2) basically, the playground is open to anybody, who is interested in simple multiuser scenes
+3) probably we will implement some demo application maybe even a server (depends on support)
+4) Goal 1: help the Web3D Consortium in defining an application layer protocol for the Network Sensor
+5) Goal 2: to be defined
+6) Goal 3: to be defined
+7) and so on
+
+8) SP-ARK has not been started yet, but with this e-mail the probability of a start increases :-)
+
+All the best
+Christoph
+

@@ -1,0 +1,72 @@
+Gesendet: Sonntag, 31. März 2019 um 21:14 Uhr
+Von: "John Carlson" <yottzumm@gmail.com>
+An: "X3D Graphics public mailing list" <x3d-public@web3d.org>,
+    "Christoph Valentin" <christoph.valentin@gmx.at>
+Betreff: New X3D network working group suggestion: Standards for
+         collaboration I/O, processing and storage (SP-ARK)
+
+Way up above the networksensor protocol is the concept of collaborate.  How can
+we effectively store and communicate collaborations?  Do they effectively store
+to a typical hierarchical file system, ala Git or Google Docs or do we need to
+create a new technology for collaborations? Might collaborations be “part of
+the network”?  What if you couldn’t work without someone to collaborate with?
+Can a collaboration include parts of the physical world?
+
+Christoph, you can add this as a comment to SP-ARK.  I think we need to develop
+some use cases or user stories for SP-ARK that involve collaboration if they are
+not already there:
+
+Primary actions are Create, Delete, Change, Inspect,  Add, Remove, Move, Copy,
+                    Grant, Revoke. Record Date/Time for all actions performed.
+Create Collaboration
+Create Object
+Create Subject
+Delete Collaboration
+Delete Object
+Delete Subject
+Change Collaboration
+Change Object
+Change Subject
+Inspect Collaboration
+Inspect Object
+Inspect Subject
+Add Subject to Collaboration
+Add Object to Collaboration
+Add Collaboration to Collaboration
+Remove Subject from Collaboration
+Remove Object from Collaboration
+Remove Collaboration from Collaboration
+Move Subject to Location, Orientation in Collaboration
+Move Object to Location, Orientation in Collaboration
+Copy Object between Collaborations
+Copy Collaboration between Collaborations
+Move Collaboration to Location, Orientation in Collaboration
+Grant access to “Collaboration, Object, Action” (key) to Subject
+Revoke access to “Collaboration, Object, Action” from Subject
+
+So for pc.multiplayer, there are 3 collaborations, global tag, card game and chat, managed by a server.
+
+Objects include location, card and message
+Subjects are clients
+There is no real collaboration, except the server is effectively a collaboration.
+There is limited communication between servers.
+
+No grant/revoke.
+
+Collaboration might be thought of as a server, table, channel, room, or 
+                                       conversation all at once.
+
+More?  I believe if we implement this much for a network protocol for SP-ARK, we
+will have achieved quite a bit.
+
+We should probably prototype with an easy to use protocol, that can be used from
+JavaScript, and “upgrade” to a more industrial protocol once we have the patterns
+down. That is, lower levels can be swapped out by vendors. Thus we need a
+“JPA-like (Hibernate)” level which unifies the persistence and communication.
+I am thinking some object attributes can be annotated as persistent and/or
+communicateable.
+
+What do you view as the primary SP-ARK actions?
+
+John
+
