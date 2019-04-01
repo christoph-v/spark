@@ -1,0 +1,35 @@
+What do you think about using pub/sub or messaging?  What “style” of protocol
+works best in SP-ARK’s case?  I think one to many and many to one is one of the
+best features of pub/sub, but often it takes a lot infrastructure to maintain
+the queues.
+
+Maybe we should step back and define the objects we are communicating.
+
+    Avatar (initial H-Anim figure) and position, orientation, motion (ongoing).
+       This is done by pc.multiplayer tag around the world
+    Things the avatar might be carrying (shapes transformed by the avatars position,
+    orientation and motion)
+    Sounds-chat-video applied to avatar position
+    ???
+
+Thus some actions might be:
+Subscribe to Avatar Topic, Reply Address
+Subscribe to Inventory Topic, Reply Address
+Subscribe to Communication Topic, Reply Address
+Avatar Publish
+Inventory Publish
+Communication Publish
+Receive Avatar Publish
+Receive Inventory Publish
+Receive Communication Publish
+
+This feels a lot more natural to me than the SQL, Chat or REST protocols.
+We can create different topics to communicate about, probably subclasses of
+NetworkSensor or some such.
+Check out the High Fidelity intro video for ideas about what might be done,
+re: Inventory.   This will be important when we get to VR controllers.
+Collaboration as far as the scene itself is a lot like SAI, but perhaps we need
+to consider network traffic for that?
+Don, what do you think about putting a network pub/sub interface into the event
+loop for X3Dv4?  Is there a popular JavaScript pub/sub?
+John

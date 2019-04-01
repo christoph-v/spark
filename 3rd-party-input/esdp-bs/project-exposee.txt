@@ -1,0 +1,56 @@
+Follows some questions / inspirations from John C. and the answers (tbd.)
+
+Q: What will be the use case of the demo application?
+A: tbd.
+
+Q: What will be the content of the scene (Avatars, Models, ......)? What is a
+   "collaboration"? Which "collaborations" will we implement?
+A: tbd.
+
+Q: What is a "shared state"?
+   Note that I have difficulty talking about state because of multiple meanings,
+   political, physics etc. Do you really just mean state, state of what?  What
+   does the state transition network look like?
+A: tbd.
+
+Q: How to apply the pub/sub pattern to our case? Which values to transmit?
+   Even objects? Files? Videos? What are the "topics"?
+A: tbd.
+
+Q: What content are we designing in to our messages?   What do we require of the
+   underlying system beside transport? Multimedia? In-order messages? Signaling?
+A: tbd.
+
+Q: I would rather discuss the HLAP (High Level Application Protocol), and let
+   the HLAP choose a software infrastructure based on requirements of the HLAP
+   (That is, set requirements for the lower level protocols). Once we have a
+   shopping list of requirements, we go shopping for something compatible with
+   Web3D’s Intellectual Property rules.
+   Requirements of a transport for HLAP:
+    Many to Many topics and messaging capable of carrying or referring to X3D
+          multimedia, Avatars, Inventory and Communication.
+          At up to ?? messages per second
+    Federated messaging (possibly spatiotemporal)
+    Conferences/Rooms/Channels/Topics for private X3D worlds
+    Block a publisher
+    Report a publisher
+    Message log/replay.
+    Edit own messages.
+    Conference/Topic/Room/Channel search?
+    Usable from HTML5 web.
+   Please provide input for this list.
+A: tbd.
+ 
+Q: Which functions do we delegate to the transport protocol? (voice, IM, ......)
+A: tbd.
+
+Q: What are the "master rules"?
+A: 1) SP-ARK is dedicated to the use (and support) of X3Dv4
+   2) basically, the playground is open to anybody, who is interested in simple
+      multiuser scenes
+   3) probably we will implement some demo application maybe even a server
+      (depends on support)
+   4) Goal 1: help the Web3D Consortium in defining an application layer
+              protocol for the Network Sensor
+   5) SP-ARK has not been started yet, but with this e-mail the probability of a
+      start increases :-)
