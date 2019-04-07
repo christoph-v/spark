@@ -26,8 +26,8 @@ in the "master" branch of the present repository.
     - items to be done even later (step >= 0034) are marked by a tag "TODO"
     
 Prophecy i.e. Planning: 
-    - TODO11 "Arimathea" will be finished "not before 2020"
-    - TODO12 "tbd." will be finished "not before 2021"
+    - TODO11 "Arimathea" will be finished "beyond 2020"
+    - TODO12 "tbd." will be finished "even later"
     - everything marked by "TODO" is currently "OPEN" (not planned)
 ================================================================================
 
