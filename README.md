@@ -20,8 +20,8 @@ any, and then
 - SMS-BONES-GPS: Support Standardization of Network Sensor Node (NSN) **)
 - Hence igniting what-I-call SMS Biotope or Extended Universe (Working Title)
 
-*)
-A Simple Multiuser Scene is an X3Dv4***) MU Scene, which uses standardized
+ *)
+A Simple Multiuser Scene is an X3Dv4 ***) MU Scene, which uses standardized
 communication protocols to communicate among scene instances and with a server.
 It uses the X3D Network Sensor Node**) as one of its nodes to access the network
 
@@ -82,22 +82,22 @@ yet.
 #### 4.2.2. Input from SrrTrains v0.01
 
 - The Technical Summary: please refer to the Technical Summary @ GIT repository
-spark/3rd-party-input/SrrTrains-v0.01/TechnicalSummary
+-  ... spark/3rd-party-input/SrrTrains-v0.01/TechnicalSummary
 
 - The Hobby Reports: please refer to the Hobby Reports @ GIT repository
-spark/3rd-party-input/SrrTrains-v0.01/HobbyReports
+-  ... spark/3rd-party-input/SrrTrains-v0.01/HobbyReports
 
 #### 4.2.3. Input from Protocol Brainstorming
-spark/3rd-party-input/esdp-bs
 
 - The ESDP-BS: please refer to the ESDP-BS @ GIT repository
+-  ... spark/3rd-party-input/esdp-bs
 
 #### 4.2.4. Input from John C.
 
 - PC.MULTIPLAYER Game from John C., please refer to YOTTZUMM @ GIT repository
-spark/3rd-party-input/yottzumm@gmail.com
+-  ... spark/3rd-party-input/yottzumm@gmail.com
 
 #### 4.2.5. Project Exposee
 
 - Project Exposé (2019-04-01) @ GIT Repository
-spark/3rd-party-input/esdp-bs/project-exposee.txt
+-  ... spark/3rd-party-input/esdp-bs/project-exposee.txt
