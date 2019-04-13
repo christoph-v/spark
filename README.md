@@ -23,7 +23,7 @@ any, and then
  *)
 A Simple Multiuser Scene is an X3Dv4 ***) MU Scene, which uses standardized
 communication protocols to communicate among scene instances and with a server.
-It uses the X3D Network Sensor Node**) as one of its nodes to access the network
+It uses the X3D Network Sensor Node as one of its nodes to access the network
 
 **)
 The Network Sensor Node (NSN) was proposed some time ago. It enables the scene
