@@ -16,16 +16,16 @@ any, and then
 
 ### 2.1. The GOALs of this project can be described as follows
 
-- Develop a Demo Simple Multiuser Scene*) with Working Title "Spaceship Web3D"
-- SMS-BONES-GPS: Support Standardization of Network Sensor Node (NSN) **)
+- Develop a Demo Simple Multiuser Scene x) with Working Title "Spaceship Web3D"
+- SMS-BONES-GPS: Support Standardization of Network Sensor Node (NSN) xx)
 - Hence igniting what-I-call SMS Biotope or Extended Universe (Working Title)
 
- *)
-A Simple Multiuser Scene is an X3Dv4 ***) MU Scene, which uses standardized
+x)  
+A Simple Multiuser Scene is an X3Dv4 xxx) MU Scene, which uses standardized
 communication protocols to communicate among scene instances and with a server.
 It uses the X3D Network Sensor Node as one of its nodes to access the network
 
-**)
+xx)  
 The Network Sensor Node (NSN) was proposed some time ago. It enables the scene
 author to define fields with arbitrary names (similar to Script or Prototype
 nodes). Those fields can be used to send and receive the current value or change
@@ -38,11 +38,11 @@ The exact syntax and the protocol for the Network Sensor are still to be
 defined. SP-ARK shall help to gain knowledge about the possibilities we have
 therefore.
 
-***)
+xxx)  
 X3Dv4 is version 4 of the "Extensible 3D" standard, which is developed at
-http://www.web3d.org.
+[Web3D Consortium](http://www.web3d.org "Web3D Consortium").
 
-****)
+xxxx)  
 The acronym SMS-BONES-GPS means, we would like to support the idea of
 using and/or profiling and/or defining IETF based communication protocols for
 Mixed Reality multiuser scenes
@@ -53,20 +53,20 @@ i.e. the goal is to support something we would denote as
 
 ## 3. Other Statements
 
-### Statement on 2018-12-30 by https://github.com/christoph-v
+### Statement on 2018-12-30 by [Christoph Valentin](https://github.com/christoph-v)
 
 As long as nobody else volunteers to host the SP-ARK project, I will
 host a PRELIMINARY homepage at my "Area #A" blog:
-https://areasharpa.wordpress.com/spark
+[https://areasharpa.wordpress.com/spark](https://areasharpa.wordpress.com/spark)
 
-### Statement on 2017-12-02 by https://github.com/christoph-v
+### Statement on 2017-12-02 by [Christoph Valentin](https://github.com/christoph-v)
 
 In a first approach, I will bring the documentation of SrrTrains v0.01 project
 (.odt) to this repository to have it properly licensed
 
 ## 4. Links
 
-This playground is a GIT repository: https://github.com/christoph-v/spark
+This playground is a [GIT repository](https://github.com/christoph-v/spark)
 
 The "SMS Biotope" or "Extended Universe" (working titles) has not got a location
 yet.
@@ -81,23 +81,23 @@ yet.
 
 #### 4.2.2. Input from SrrTrains v0.01
 
-- The Technical Summary: please refer to the Technical Summary @ GIT repository
--  ... spark/3rd-party-input/SrrTrains-v0.01/TechnicalSummary
-
-- The Hobby Reports: please refer to the Hobby Reports @ GIT repository
--  ... spark/3rd-party-input/SrrTrains-v0.01/HobbyReports
+- The Technical Summary: please refer to the [Technical Summary @ GIT repository]
+  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/SrrTrains-v0.01/TechnicalSummary)
+- The Hobby Reports: please refer to the [Hobby Reports @ GIT repository]
+  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/SrrTrains-v0.01/HobbyReports)
 
 #### 4.2.3. Input from Protocol Brainstorming
 
-- The ESDP-BS: please refer to the ESDP-BS @ GIT repository
--  ... spark/3rd-party-input/esdp-bs
+- The ESDP-BS: please refer to the [ESDP-BS @ GIT repository]
+  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs)
 
 #### 4.2.4. Input from John C.
 
-- PC.MULTIPLAYER Game from John C., please refer to YOTTZUMM @ GIT repository
--  ... spark/3rd-party-input/yottzumm@gmail.com
+- PC.MULTIPLAYER Game from John C., please refer to [YOTTZUMM @ GIT repository]
+  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/yottzum%40gmail.com)
 
 #### 4.2.5. Project Exposee
 
-- Project Exposé (2019-04-01) @ GIT Repository
--  ... spark/3rd-party-input/esdp-bs/project-exposee.txt
+- [Project Exposé (2019-04-01) @ GIT Repository]
+  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v0.1-2019-04-01.txt)
+  
