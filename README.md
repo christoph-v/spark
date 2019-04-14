@@ -81,23 +81,23 @@ yet.
 
 #### 4.2.2. Input from SrrTrains v0.01
 
-- The Technical Summary: please refer to the [Technical Summary @ GIT repository]
+- The Technical Summary: please refer to the ["Technical Summary @ GIT repository"]
   (https://github.com/christoph-v/spark/tree/master/3rd-party-input/SrrTrains-v0.01/TechnicalSummary)
-- The Hobby Reports: please refer to the [Hobby Reports @ GIT repository]
+- The Hobby Reports: please refer to the ["Hobby Reports @ GIT repository"]
   (https://github.com/christoph-v/spark/tree/master/3rd-party-input/SrrTrains-v0.01/HobbyReports)
 
 #### 4.2.3. Input from Protocol Brainstorming
 
-- The ESDP-BS: please refer to the [ESDP-BS @ GIT repository]
+- The ESDP-BS: please refer to the ["ESDP-BS @ GIT repository"]
   (https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs)
 
 #### 4.2.4. Input from John C.
 
-- PC.MULTIPLAYER Game from John C., please refer to [YOTTZUMM @ GIT repository]
-  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/yottzum%40gmail.com)
+- PC.MULTIPLAYER Game from John C., please refer to ["YOTTZUMM @ GIT repository"]
+  (https://github.com/christoph-v/spark/tree/master/3rd-party-input/yottzumm%40gmail.com)
 
 #### 4.2.5. Project Exposee
 
-- [Project Exposé (2019-04-01) @ GIT Repository]
+- ["Project Exposé (2019-04-01) @ GIT Repository"]
   (https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v0.1-2019-04-01.txt)
   
