@@ -112,4 +112,8 @@ Hobby Report 012 - New Instance Naming
    This hobby report explains some detailed considerations that were done
    at the beginning of step 0033.11.   
    Current version is 4.3, it will not be updated again (it's a "snapshot")
-   
+
+Hobby Report 013 - Scene Wrappers and GUIs
+------------------------------------------
+   This is a new hobby report, which introduces release "Fiat A". Release
+   "Fiat A" could - if started - become an intermediate step towards "Arimathea"  
