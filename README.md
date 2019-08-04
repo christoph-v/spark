@@ -12,11 +12,11 @@ any, and then
 - Create ONE commit with your changes (at your account)
 - Create Pull Request (here at github.com/christoph-v/spark)
 
-## 2. Everlasting Statements (last modified on 2019-04-13)
+## 2. Everlasting Statements (last modified on 2019-07-23)
 
 ### 2.1. The GOALs of this project can be described as follows
 
-- Develop a Demo Simple Multiuser Scene x) with Working Title "Spaceship Web3D"
+- Develop a Demo Simple Multiuser Scene x) with Working Title "Spaceship Web3D" - tbd.
 - SMS-BONES-GPS: Support Standardization of Network Sensor Node (NSN) xx)
 - Hence igniting what-I-call SMS Biotope or Extended Universe (Working Title)
 
@@ -100,5 +100,5 @@ yet.
 
 #### 4.2.5. Project Exposee
 
-- ["Project Exposé (2019-04-01) @ GIT Repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v0.1-2019-04-01.txt)
+- ["Project ExposÃ© (2019-04-01) @ GIT Repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v0.1-2019-04-01.txt)
   
