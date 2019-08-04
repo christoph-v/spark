@@ -71,6 +71,8 @@ This playground is a [GIT repository](https://github.com/christoph-v/spark)
 The "SMS Biotope" or "Extended Universe" (working titles) has not got a location
 yet.
 
+[Write an E-MAIL to SrrTrains Core Team](http://members.chello.at/christoph.valentin/mail.htm)
+
 ### 4.1. OUTPUT of the Playground
 
 #### 4.1.1. Your Output Missing Here
