@@ -35,7 +35,7 @@ currently envisioned) in the "master" branch of the present repository.
 Prophecy i.e. Planning: 
     - "Fiat A" will be finished "not before 2020, if at all"
     - TODO11 "Arimathea" will be finished "beyond 2020, if at all"
-    - TODO12 "tbd." will be finished "even later, if at all"
+    - TODO12 "Sabbath" will be finished "even later, if at all"
 
 Everything marked by "TODO" is currently "OPEN" (not planned)
 ================================================================================
@@ -48,7 +48,7 @@ Summary
 -------
 Hobby Report 007 (see below) is OUR MAIN INPUT INTO THE SP-ARK PROJECT
 Hobby Report 003 might be updated for LAN Party #3
-Hobby Reports 001, 005, 007 and 009 will be kept up to date continuously
+Hobby Reports 001, 005, 007, 009 and 013 will be kept up to date continuously
 
 Hobby Report 001 - Pieta / Rebase to MIB Core
 ---------------------------------------------
@@ -57,7 +57,7 @@ Hobby Report 001 - Pieta / Rebase to MIB Core
    These changes are essential, so that the main part of this hobby report
    was imported as an own chapter to the Hobby Report 007 (New Concept Paper). 
    Current version is 4.3.x. No substantial changes are expected between step
-   0033.10.5 and step 0033.11.
+   0033.10.5 (i.e. 4.3.x) and step 0033.11 (i.e. 4.4.x).
  
 Hobby Report 002 - MMF New
 --------------------------
@@ -70,7 +70,7 @@ Hobby Report 003 - Tracer Leaflet / LAN Party #3
    This hobby report will be a feature of the "LAN Party #3", the current
    content is NOT UP TO DATE.
    Current version is 3.0, it will be updated shortly before LAN Party #3, the
-   new version will be 4.x.y
+   new version will be 4.3.x or 4.4.x
    
 Hobby Report 004 - Kinds of Objects
 -----------------------------------
