@@ -2,7 +2,7 @@
                     Hobby Reports of SrrTrains v0.01
                     ================================
                     
-                                                                      2019-08-15     
+                                                                      2019-08-20     
 
 ================================================================================
 The SrrTrains v0.01 project is currently being in a "CLOSED" state, because we
@@ -14,26 +14,22 @@ The stable version of the Hobby Reports of SrrTrains v0.01 that were in line
 with the release 0033.10 "Pieta" of the SRR Framework - i.e. the version 3.x of
 the Hobby Reports - can be found in branch "stable_33.10".
 
-The current stable version of the SRR Framework (step 0033.10.5 "Fiat A Base")
-can be downloaded from https://sourceforge.net/projects/simulrr/files/
+Step 0033.11 is currently documented in the master branch. The documentation
+for step 0033.11 is not stable yet.
 
-Step 0033.10.5 is currently documented in the master branch. The documentation
-for step 0033.10.5 is not stable yet.
+   document version 4.3.x ...... 0033.11 has been defined
+   document version 4.4.x ...... 0033.11 will be finished
 ================================================================================
 
 ================================================================================
-The Hobby Reports are now being provided for version 4.x (which should provide a
-view to the "Fiat A" release (step 0033.10.5), to the "Arimathea" release (step
-0033.11) and to the "Sabbath" release (step 0033.12 = step 0033) as they are
-currently envisioned) in the "master" branch of the present repository.
+The Hobby Reports are now being provided at version 4.x ("Arimathea" release -
+step 0033.11) in the "master" branch of the present repository.
 
-    - items to be part of "Fiat A" are not marked
     - items to be done for "Arimathea" are marked by a tag "TODO11"
     - items to be done for "Sabbath" are marked by a tag "TODO12"
     - items to be done even later (step >= 0034) are marked by a tag "TODO"
 
 Prophecy i.e. Planning: 
-    - "Fiat A" will be finished "not before 2020, if at all"
     - TODO11 "Arimathea" will be finished "beyond 2020, if at all"
     - TODO12 "Sabbath" will be finished "even later, if at all"
 
@@ -42,13 +38,13 @@ Everything marked by "TODO" is currently "OPEN" (not planned)
 
 Envisioned steps 0034, 0035, ..... of the SrrTrains project might be considered
 in SrrTrains v1.0, which might become existent, if the SMS Biotope will become
-existent as an outcome of SP-ARK.
+existent as an outcome of S&P-ARK.
 
 Summary
 -------
-Hobby Report 007 (see below) is OUR MAIN INPUT INTO THE SP-ARK PROJECT
+Hobby Report 007 (see below) is OUR MAIN INPUT INTO THE S&P-ARK PROJECT
 Hobby Report 003 might be updated for LAN Party #3
-Hobby Reports 001, 005, 007, 009 and 013 will be kept up to date continuously
+Hobby Reports 001, 005, 007 and 009 will be kept up to date continuously
 
 Hobby Report 001 - Pieta / Rebase to MIB Core
 ---------------------------------------------
@@ -57,7 +53,7 @@ Hobby Report 001 - Pieta / Rebase to MIB Core
    These changes are essential, so that the main part of this hobby report
    was imported as an own chapter to the Hobby Report 007 (New Concept Paper). 
    Current version is 4.3.x. No substantial changes are expected between step
-   0033.10.5 (i.e. 4.3.x) and step 0033.11 (i.e. 4.4.x).
+   0033.11/unfinished (i.e. 4.3.x) and step 0033.11 (i.e. 4.4.x).
  
 Hobby Report 002 - MMF New
 --------------------------
@@ -91,7 +87,7 @@ Hobby Report 006 - MIDAS Best Current Practices
    
 Hobby Report 007 - New Concept Paper of SrrTrains v0.01
 -------------------------------------------------------
-   This hobby report is OUR MAIN INPUT INTO THE SP-ARK PROJECT.
+   This hobby report is OUR MAIN INPUT INTO THE S&P-ARK PROJECT.
    Current version is 4.3.x, it'll be updated, if step 0033.11 will be finished
 
 Hobby Report 008 - POIs, RLOs and RLAs
@@ -125,5 +121,5 @@ Hobby Report 013 - The Decision
 -------------------------------
    This is a new hobby report, which introduces release "Fiat A". Release
    "Fiat A" could become - if started - an intermediate step towards "Arimathea"
-   Current version is 4.3.x, it'll be updated, if step 0033.11 will be finished
+   Current version is 4.3.x, it will not be updated again (it's a "snapshot")
   
