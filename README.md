@@ -1,16 +1,14 @@
-# spark
+# S&P-ARK
 Simple Playground - Achieving Required Knowledge
 
 Following statements are intended to hold true for this repository
 
-## 1. How to Contribute
+## 1. S&P-ARK is a TEMPLATE Project
 
-If you want to contribute, please create an account on GitHub, if you don't have
-any, and then
-- Clone the Repository to your account
-- Create and Checkout your Developer Branch (at your account)
-- Create ONE commit with your changes (at your account)
-- Create Pull Request (here at github.com/christoph-v/spark)
+S&P-ARK is not a "real" project, but it is currently used to publish my opinion
+about a project / or about projects / that should be conducted by the Web3D
+Community to elaborate the "Community Requirements" for the NSN and to use the
+NSN, after it will have been standardized
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
@@ -35,7 +33,7 @@ autonomously implemented by the scene author to calculate the current value of
 states and events.
 
 The exact syntax and the protocol for the Network Sensor are still to be
-defined. SP-ARK shall help to gain knowledge about the possibilities we have
+defined. S&P-ARK shall help to gain knowledge about the possibilities we have
 therefore.
 
 xxx)  
@@ -55,7 +53,7 @@ i.e. the goal is to support something we would denote as
 
 ### Statement on 2018-12-30 by [Christoph Valentin](https://github.com/christoph-v)
 
-As long as nobody else volunteers to host the SP-ARK project, I will
+As long as nobody else volunteers to host the S&P-ARK project, I will
 host a PRELIMINARY homepage at my "Area #A" blog:
 [https://areasharpa.wordpress.com/spark](https://areasharpa.wordpress.com/spark)
 
@@ -100,5 +98,5 @@ yet.
 
 #### 4.2.5. Project Exposee
 
-- ["Project Exposé (2019-04-01) @ GIT Repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v0.1-2019-04-01.txt)
+- ["Project Exposé (2019-08-21) @ GIT Repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v1.0-2019-08-21.txt)
   
