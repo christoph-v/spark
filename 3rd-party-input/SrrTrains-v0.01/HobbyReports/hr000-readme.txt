@@ -2,11 +2,11 @@
                     Hobby Reports of SrrTrains v0.01
                     ================================
                     
-                                                                      2019-08-20     
+                                                                      2020-08-03
 
 ================================================================================
-The SrrTrains v0.01 project is currently being in a "CLOSED" state, because we
-are waiting for 3rd party interest to RE-OPEN the project.
+The SrrTrains v0.01 project is currently being in a "CLOSED" / "HIBERNATING"
+state, because we are waiting for 3rd party interest to RE-OPEN the project.
 ================================================================================
 
 ================================================================================
@@ -30,7 +30,7 @@ step 0033.11) in the "master" branch of the present repository.
     - items to be done even later (step >= 0034) are marked by a tag "TODO"
 
 Prophecy i.e. Planning: 
-    - TODO11 "Arimathea" will be finished "beyond 2020, if at all"
+    - TODO11 "Arimathea" will be finished "beyond 2035, if at all"
     - TODO12 "Sabbath" will be finished "even later, if at all"
 
 Everything marked by "TODO" is currently "OPEN" (not planned)
