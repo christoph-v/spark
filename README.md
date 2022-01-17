@@ -51,12 +51,6 @@ i.e. the goal is to support something we would denote as
 
 ## 3. Other Statements
 
-### Statement on 2018-12-30 by [Christoph Valentin](https://github.com/christoph-v)
-
-As long as nobody else volunteers to host the S&P-ARK project, I will
-host a PRELIMINARY homepage at my "Area #A" blog:
-[https://areasharpa.wordpress.com/spark](https://areasharpa.wordpress.com/spark)
-
 ### Statement on 2017-12-02 by [Christoph Valentin](https://github.com/christoph-v)
 
 In a first approach, I will bring the documentation of SrrTrains v0.01 project
@@ -69,7 +63,7 @@ This playground is a [GIT repository](https://github.com/christoph-v/spark)
 The "SMS Biotope" or "Extended Universe" (working titles) has not got a location
 yet.
 
-[Write an E-MAIL to SrrTrains Core Team](http://members.chello.at/christoph.valentin/mail.htm)
+[Write an E-MAIL to SrrTrains Core Team - LINK BROKEN!!!](http://lc-soc-lc.at/addendum.htm)
 
 ### 4.1. OUTPUT of the Playground
 
