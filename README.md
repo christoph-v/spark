@@ -3,12 +3,53 @@ Simple Playground - Achieving Required Knowledge
 
 Following statements are intended to hold true for this repository
 
-## 1. S&P-ARK is a TEMPLATE Project
+## 1. S&P-ARK was a TEMPLATE Project
 
-S&P-ARK is not a "real" project, but it is currently used to publish my opinion
+S&P-ARK was not a "real" project, but it was used to publish my opinion
 about a project / or about projects / that should be conducted by the Web3D
 Community to elaborate the "Community Requirements" for the NSN and to use the
 NSN, after it will have been standardized
+
+### 1.1. Now (2022-03-24) the Project is actually started
+
+with following TODO List
+
+#### Phase 0 - Telling Stories / Collecting Information (ONGOING)
+
+We make following assumptions:
+1. Assumption (1) - We will start with implementing an open source conferencing tool for small, closed groups
+2. Assumption (2) - The tool will use a "tiny" VPN for RTP communication over IP Multicast (voice, video RFC 3551)
+3. Assumption (3) - The tool will have browser based clients, implemented in HTML and JavaScript
+4. Assumption (4) - The sharing of files will be provided by the ownCloud software
+5. Assumption (5) - We will modify the ownCloud software, so that it provides the necessary authentication and authorization services for the tool 
+6. Assumption (6) - Using HTML and JavaScript will be a preparation for tinkering with X3Dv4
+7. Assumption (7) - We will select one of the following approaches (thank you, Sven-Erik, John and Kevin, for all your hints)
+
+Probably, we will follow one of the following approaches
+1. Approach (A) - [https://www.kamailio.org](https://www.kamailio.org)
+2. Approach (B) - [https://freeswitch.com](https://freeswitch.com)
+3. Approach (C) - [https://peerjs.com](https://peerjs.com)
+4. Approach (D) - openfire server / jingle RTC client
+5. Approach (E) - pure WebRTC and Node.js
+6. Approach (F) - Strophe.js
+
+We acknowledge following additional resources of information
+1. Additional Info (a) - [https://coderextreme.net/grasshopper](https://coderextreme.net/grasshopper) - peer 2 peer
+2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
+3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
+
+#### Phase 1 - Open Source Conferencing Tool (PLANNED)
+
+0. Some Preparations
+1. Try multicast WebRTC voice conference with AJAX Login (+ SDP download) and pure Node.js
+2. If this works --> try the same with video
+3. If this works --> try the same with data
+4. If this simple multicast works with voice + video + Data --> finished
+5. If it fails, try WebRTC + SIP.js with kamailio (or FreeSwitch)
+6. If multicast does not work at all --> do it with unicast without mixer
+7. If it does not work without mixer --> look for a mixer
+
+Next step: tinker with X3Dv4
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
