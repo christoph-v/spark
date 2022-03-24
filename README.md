@@ -40,11 +40,13 @@ We acknowledge following additional resources of information
 
 #### Phase 1 - Open Source Conferencing Tool (PLANNED)
 
+Deadline: it's done, when it's done
+
 0. Some Preparations
 1. Try multicast WebRTC voice conference with AJAX Login (+ SDP download) and pure Node.js
 2. If this works --> try the same with video
 3. If this works --> try the same with data
-4. If this simple multicast works with voice + video + Data --> finished
+4. If this simple multicast works with voice + video + data --> finished
 5. If it fails, try WebRTC + SIP.js with kamailio (or FreeSwitch)
 6. If multicast does not work at all --> do it with unicast without mixer
 7. If it does not work without mixer --> look for a mixer
