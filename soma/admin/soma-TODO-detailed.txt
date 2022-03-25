@@ -1,0 +1,8 @@
+   - Ensure ownCloud(vServer) can send E-Mails
+   - Ensure ownCloud(vServer) can use the local passwd file (FTP?)
+   - Implement some rules about directories
+      - define, who is quasi member ("The Society") - ask Theo, Flo, Verena
+      - for ownCloud users (private directory)
+      - for members of "The Society" (public directory)
+   - Supported installation of the "Tiny" VPN
+   - First Experiments with AJAX and Node.js (CORS)
