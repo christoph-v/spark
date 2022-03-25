@@ -135,5 +135,5 @@ yet.
 
 #### 4.2.5. Project Exposee
 
-- ["Project Exposé (2019-08-21) @ GIT Repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v1.0-2019-08-21.txt)
+- ["Project Exposé (2022-03-25) @ GIT Repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/esdp-bs/project-exposee_v1.1-2022-03-25.txt)
   
