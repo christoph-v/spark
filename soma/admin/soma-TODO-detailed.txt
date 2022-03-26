@@ -1,4 +1,11 @@
-   - Ensure ownCloud(vServer) can send E-Mails
+DON....done
+ONG....ongoing
+SKP....skipped
+PLN....planned
+
+
+DON- Ensure ownCloud(vServer) can send E-Mails
+PLN- Some Security Issues at vServer
    - Ensure ownCloud(vServer) can use the local passwd file (FTP?)
    - Implement some rules about directories
       - define, who is quasi member ("The Society") - ask Theo, Flo, Verena
