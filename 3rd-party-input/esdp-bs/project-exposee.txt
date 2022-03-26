@@ -110,5 +110,5 @@ A: 1) S&P-ARK is dedicated to the use (and support) of X3Dv4
       (depends on support)
    4) Goal 1: help the Web3D Consortium in defining an application layer
               protocol for the Network Sensor
-   5) S&P-ARK was not started by 2022-03-24
+   5) S&P-ARK was started by 2022-03-24
 --------------------------------------------------------------------------------
