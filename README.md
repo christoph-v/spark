@@ -14,7 +14,7 @@ NSN, after it will have been standardized
 
 with following TODO List
 
-#### Phase 0 - Telling Stories / Collecting Information (ONGOING)
+#### Phase 0 - Telling Stories / Collecting Information (DONE)
 
 We make following assumptions:
 1. Assumption (1) - We will start with implementing an open source conferencing tool for small, closed groups
@@ -38,11 +38,11 @@ We acknowledge following additional resources of information
 2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
 3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
 
-#### Phase 1 - Open Source Conferencing Tool (PLANNED)
+#### Phase 1 - Open Source Conferencing Tool (ONGOING)
 
 Deadline: it's done, when it's done
 
-0. Some Preparations
+0. Some Preparations (ONGOING)
 1. Try multicast WebRTC voice conference with AJAX Login (+ SDP download) and pure Node.js
 2. If this works --> try the same with video
 3. If this works --> try the same with data
