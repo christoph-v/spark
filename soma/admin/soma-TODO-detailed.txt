@@ -6,10 +6,9 @@ PLN....planned
 
 DON- Ensure ownCloud(vServer) can send E-Mails
 PLN- Some Security Issues at vServer
-   - Ensure ownCloud(vServer) can use the local passwd file (FTP?)
+ONG- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
    - Implement some rules about directories
-      - define, who is quasi member ("The Society") - ask Theo, Flo, Verena
-      - for ownCloud users (private directory)
-      - for members of "The Society" (public directory)
-   - Supported installation of the "Tiny" VPN
+      - for ownCloud users (each gets a "private" directory)
+      - for members of "The Society" (have a common "public" directory)
+   - Automated installation of the "Tiny VPN"
    - First Experiments with AJAX and Node.js (CORS)
