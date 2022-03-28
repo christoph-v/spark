@@ -3,12 +3,22 @@ ONG....ongoing
 SKP....skipped
 PLN....planned
 
-
 DON- Ensure ownCloud(vServer) can send E-Mails
-PLN- Some Security Issues at vServer
+ONG- Some Security Issues at vServer
 ONG- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
    - Implement some rules about directories
       - for ownCloud users (each gets a "private" directory)
-      - for members of "The Society" (have a common "public" directory)
+      - for members of "The Society" (have an only-members "public" directory)
    - Automated installation of the "Tiny VPN"
    - First Experiments with AJAX and Node.js (CORS)
+   - Intended architecture for "simple AJAX login server based on Node.js"
+      - the login server will be accessed via and located within a secure VPN
+        (no additional encryption will be necessary, but that of the VPN)
+      - the "external protocol" (i.e. ownCloud) provides a "user name" and an
+        "access token" to the user. This user name + access token authorizes
+        the user to download data from the login server
+      - the user can download
+         - authorization for a set of RTP sessions within the VPN
+         - authorization for a set of roles the user may attain
+         - authorization for using one of a set of avatars (coupled to roles)
+         - and so on
