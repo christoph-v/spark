@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { Call } from './call.component'
 let Peer = require('peerjs');
 let MediaConnection = require('peerjs/lib/mediaconnection');
