@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Inject } from '@angular/core';
 
 @Component({
 	selector: '#{{id}}',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 export class MenuItem {
 	id: string;
 	name: string;
-	constructor(id: string, name: string) {
+	constructor(@Inject(String) id: string, @Inject(String) name: string) {
 		this.id = id;
 		this.name = name;
 	}
