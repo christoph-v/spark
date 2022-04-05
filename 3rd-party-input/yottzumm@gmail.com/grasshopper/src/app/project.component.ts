@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 import { Call } from './call.component'
-import { Peer } from 'peerjs';
-import { MediaConnection } from 'peerjs/lib/mediaconnection';
+let Peer = require('peerjs');
+let MediaConnection = require('peerjs/lib/mediaconnection');
 
 let peers = new Call();
 let myStream = new MediaSource();
@@ -28,7 +28,7 @@ export class ProjectVideoComponent {
     answerCalls() {
 	// let peer = new Peer(peers.getTeacherValue(), {key: 'mnd6i13qm362bj4i'});
 	let peer = new Peer(peers.getTeacherValue(), {host: '52.10.34.169', port:9000});
-	peer.on('call', function (answercall: MediaConnection) {
+	peer.on('call', function (answercall: typeof MediaConnection) {
 		if (typeof myStream === 'undefined' || myStream === null) {
 			alert("Cannot retrieve your video in answer");
 		} else {
@@ -45,7 +45,7 @@ export class ProjectVideoComponent {
 	if (myStream === null || typeof myStream === 'undefined' || myStream === null) {
 		alert("Cannot retrieve your video in call");
 	} else {
-		let callteacher = <MediaConnection>peer.call(peers.getTeacherValue(), myStream);
+		let callteacher = <typeof MediaConnection>peer.call(peers.getTeacherValue(), myStream);
 		callteacher.on('stream', function(peerStream: MediaSource) {
 			(<HTMLVideoElement>document.getElementById('peervideo')).src = window.URL.createObjectURL(peerStream);
 		});
