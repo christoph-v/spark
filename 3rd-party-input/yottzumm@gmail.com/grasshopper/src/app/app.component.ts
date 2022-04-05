@@ -29,7 +29,7 @@ class Menu {
 })
 // Component controller
 export class AppComponent {
-  title = 'grasshopper0';
+  title = 'grasshopper';
   id: string;
   teacherview: string;
   teachermodify: string;
