@@ -4,7 +4,30 @@ SKP....skipped
 PLN....planned
 
 DON- Ensure ownCloud(vServer) can send E-Mails
-ONG- Some Security Issues at vServer
+DON- Some Issues at vServer - reported by ownCloud
+   DON- Sicherheits- & Einrichtungswarnungen
+      SKP- Transaktionales Sperren sollte zur Nutzung des speicherbasierten
+           Sperrens anstatt des langsamen Datenbank basierten Sperrens
+           konfiguriert werden. Weitere Informationen findest Sie in unserer
+           Dokumentation.
+      SKP- Wir empfehlen das Aktivieren des System-Cron da jede andere
+           Cron-Methode Auswirkungen auf die Leistungsfähigkeit und die
+           Zuverlässigkeit hat.
+      DON- Dein Datenverzeichnis und Deine Dateien sind wahrscheinlich vom
+           Internet aus erreichbar. Die .htaccess-Datei funktioniert nicht.
+           Es wird dringend empfohlen, Deinen Webserver dahingehend zu
+           konfigurieren, dass das Datenverzeichnis nicht mehr vom Internet
+           aus erreichbar ist oder dass Du es aus dem Document-Root-Verzeichnis
+           des Webservers herausverschiebst.
+      DON- Der "Strict-Transport-Security" HTTP-Header ist nicht auf mindestens
+           "15552000" Sekunden eingestellt. Um die Sicherheit zu erhöhen,
+           empfehlen wir das Aktivieren von HSTS, wie es in den
+           Sicherheitshinweisen erläutert ist.
+      SKP- Es wurde kein PHP Memory Cache konfiguriert. Konfiguriere zur
+           Erhöhung der Leistungsfähigkeit, soweit verfügbar, einen Memory
+           Cache. Weitere Informationen finden Sie in unserer Dokumentation.
+   SKP- Bitte überprüfe noch einmal die Installationsanleitungen und
+        kontrolliere das Log auf mögliche Fehler oder Warnungen.
 ONG- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
    - Implement some rules about directories
       - for ownCloud users (each gets a "private" directory)
