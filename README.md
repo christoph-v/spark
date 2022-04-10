@@ -43,7 +43,14 @@ We acknowledge following additional resources of information
 Deadline: it's done, when it's done
 
 0. Some Preparations (ONGOING)
-1. Try multicast WebRTC voice conference with AJAX Login (+ SDP download) and pure Node.js
+1. Try multicast WebRTC voice conference with AJAX Login and pure Node.js
+1.a. "Simple AJAX Login Server Application (SALSA)" is based on ALP
+1.b. Typical Login
+1.b.i. LI-R (username, token) --- Login Request
+1.b.ii. LI-CH (SDP offer) --- Login Challenge
+1.b.iii. LI-R (SDP answer) --- Login Request
+1.b.iv. LI-G (avatar) --- Login Grant
+1.b.v. SUN (commState) --- State Update Notification
 2. If this works --> try the same with video
 3. If this works --> try the same with data
 4. If this simple multicast works with voice + video + data --> finished

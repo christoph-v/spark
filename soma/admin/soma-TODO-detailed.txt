@@ -29,19 +29,21 @@ DON- Some Issues at vServer - reported by ownCloud
    SKP- Bitte überprüfe noch einmal die Installationsanleitungen und
         kontrolliere das Log auf mögliche Fehler oder Warnungen.
 ONG- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
+   - Analyse Grasshopper Academy
    - Implement some rules about directories
       - for ownCloud users (each gets a "private" directory)
       - for members of "The Society" (have an only-members "public" directory)
    - Automated installation of the "Tiny VPN"
    - First Experiments with AJAX and Node.js (CORS)
-   - Intended architecture for "simple AJAX login server based on Node.js"
+   - Intended design of "Simple AJAX Login Server Application (SALSA)"
       - the login server will be accessed via and located within a secure VPN
         (no additional encryption will be necessary, but that of the VPN)
       - the "external protocol" (i.e. ownCloud) provides a "user name" and an
         "access token" to the user. This user name + access token authorizes
-        the user to download data from the login server
-      - the user can download
-         - authorization for a set of RTP sessions within the VPN
-         - authorization for a set of roles the user may attain
-         - authorization for using one of a set of avatars (coupled to roles)
-         - and so on
+        the user to download data from the SALSA
+      - the protocol with the SALSA is based on ALP
+         - LI-R (username, token).....Login Request
+         - LI-CH (SDP offer)..........Login Challenge
+         - LI-R (SDP answer)..........Login Request
+         - LI-G (avatar)..............Login Grant
+         - SUN (commState)............State Update Notification
