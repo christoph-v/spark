@@ -143,7 +143,7 @@ yet.
 
 #### 4.2.4. Input from John C.
 
-- PC.MULTIPLAYER Game from John C., please refer to
+- PC.MULTIPLAYER Game and Grasshopper Academy from John C., please refer to
   ["YOTTZUMM @ GIT repository"](https://github.com/christoph-v/spark/tree/master/3rd-party-input/yottzumm%40gmail.com)
 
 #### 4.2.5. Project Exposee

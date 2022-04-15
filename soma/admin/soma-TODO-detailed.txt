@@ -31,8 +31,8 @@ DON- Some Issues at vServer - reported by ownCloud
            Cache. Weitere Informationen finden Sie in unserer Dokumentation.
    SKP- Bitte überprüfe noch einmal die Installationsanleitungen und
         kontrolliere das Log auf mögliche Fehler oder Warnungen.
-ONG- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
-   - Analyse Grasshopper Academy
+DON- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
+PLN- Analyse Grasshopper Academy
    - Implement some rules about directories
       - for ownCloud users (each gets a "private" directory)
       - for members of "The Society" (have an only-members "public" directory)
