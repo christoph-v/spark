@@ -36,13 +36,18 @@ DON- Some Issues at vServer - reported by ownCloud
         kontrolliere das Log auf mögliche Fehler oder Warnungen.
 DON- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
 DON- Analyse PC-MULTIPLAYER
-PLN- Look into socket.io, Express, SSE
+DON- Look into socket.io, Express
+PLN- Look into SSE
 PLN- Analyse Grasshopper Academy
    - Implement some rules about directories
       - for ownCloud users (each gets a "private" directory)
       - for members of "The Society" (have an only-members "public" directory)
    - Automated installation of the "Tiny VPN"
-   - First Experiments with AJAX and Node.js (CORS, ......)
+   - First Experiments with WebRTC, AJAX/fetch() and Node.js (CORS, ......)
+      - WebRTC Basics
+      - Login and display avatars
+      - Chat application via signalling
+      - Private call (unicast)
    - Design of "Simple ALP Login Server Application (SALSA)"
       - the login server will be accessed via and located within a secure VPN
         (no additional encryption will be necessary, but that of the VPN)
