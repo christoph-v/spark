@@ -37,17 +37,18 @@ DON- Some Issues at vServer - reported by ownCloud
 DON- Ensure ownCloud(vServer) can use the local passwd file (FTP?)
 DON- Analyse PC-MULTIPLAYER
 DON- Look into socket.io, Express
-PLN- Look into SSE
-PLN- Analyse Grasshopper Academy
-   - Implement some rules about directories
+   - Look into SSE
+   - Analyse Grasshopper Academy
+ONG- Implement some rules about OwnCloud directories
       - for ownCloud users (each gets a "private" directory)
       - for members of "The Society" (have an only-members "public" directory)
    - Automated installation of the "Tiny VPN"
-   - First Experiments with WebRTC, AJAX/fetch() and Node.js (CORS, ......)
-      - WebRTC Basics
-      - Login and display avatars
-      - Chat application via signalling
-      - Private call (unicast)
+   - Design of "Experimental Login Server Application (ELSA)"
+      - monolithic page (owncloud distributed)
+      - loading single resources from ELSA (experiments with CORS)
+      - First Use Case: Experimental Login at ELSA, display .jpg as avatar
+      - Second Use Case: Experimental Simple Chat (ESC)
+      - Third Use Case: WebRTC Based Experimental Private Call (unicast)
    - Design of "Simple ALP Login Server Application (SALSA)"
       - the login server will be accessed via and located within a secure VPN
         (no additional encryption will be necessary, but that of the VPN)
@@ -60,5 +61,8 @@ PLN- Analyse Grasshopper Academy
          - LI-R (SDP answer)..........Login Request
          - LI-G (SSE-URL).............Login Grant
          - SUN (userData).............State Update Notification
-   - First Use Case: Login and display .jpg as avatar
-   - Second Use Case: Simple Chat
+   - First Use Case: Login at SALSA, display .jpg as avatar
+   - Second Use Case: Simple Chat (SALSA Chat)
+   - Third Use Case: WebRTC Based Private Call (unicast)
+   - ......
+

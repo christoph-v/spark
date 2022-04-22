@@ -42,11 +42,13 @@ We acknowledge following additional resources of information
 
 Deadline: it's done, when it's done
 
+[Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/soma/admin/soma-TODO-detailed.txt)
+
 0. Some Preparations (ONGOING)
    - Setup the Infrastructure (ONGOING)
-   - First Experiments with WebRTC, AJAX/fetch() and Node.js
+   - First Experiments with WebRTC, socket.io, AJAX/fetch() and Node.js (ELSA)
 1. Try multicast WebRTC voice conference with HTTP Login and pure Node.js
-   - Design of "Simple ALP Login Server Application (SALSA)"
+   - Design of "Simple ALP Login Server Application (SALSA)" (based on ELSA)
 2. If this works --> try the same with video
 3. If this works --> try the same with data
 4. If this simple multicast works with voice + video + data --> finished
