@@ -3,7 +3,7 @@ Simple Playground - Achieving Required Knowledge
 
 Following statements are intended to hold true for this repository
 
-## 1. S&P-ARK was a TEMPLATE Project
+## 1. S&P-ARK, The Project
 
 S&P-ARK was not a "real" project, but it was used to publish my opinion
 about a project / or about projects / that should be conducted by the Web3D
@@ -45,10 +45,10 @@ Deadline: it's done, when it's done
 [Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/soma/admin/soma-TODO-detailed.txt)
 
 0. Some Preparations (ONGOING)
-   - Setup the Infrastructure (ONGOING)
-   - First Experiments with WebRTC, socket.io, AJAX/fetch() and Node.js (ELSA)
+   - Setup the Infrastructure (DONE)
+   - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js) - (ONGOING)
 1. Try multicast WebRTC voice conference with HTTP Login and pure Node.js
-   - Design of "Simple ALP Login Server Application (SALSA)" (based on ELSA)
+   - Design of "Simple ALP Login Server Application (SALSA)"
 2. If this works --> try the same with video
 3. If this works --> try the same with data
 4. If this simple multicast works with voice + video + data --> finished

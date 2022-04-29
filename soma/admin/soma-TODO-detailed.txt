@@ -1,9 +1,6 @@
 SOMA
 Simple OwnCloud Based Management of Associations
 
-SALSA
-Simple ALP Login Server Application
-
 DON....done
 ONG....ongoing
 SKP....skipped
@@ -44,11 +41,10 @@ DON- Implement some rules about OwnCloud directories
    DON- for members of "elsa" (have an only-members "public-elsa" directory)
 SKP- Automated installation of the "Tiny VPN"
 ONG- Design of "Experimental Login Server Application (ELSA)"
-   ONG- monolithic page (owncloud distributed)
-      - loading single resources from ELSA (experiments with CORS)
-      - First Use Case: Experimental Login at ELSA, display .jpg as avatar
-      - Second Use Case: Experimental Simple Chat (ESC)
-      - Third Use Case: WebRTC Based Experimental Private Call (unicast)
+   ONG- Create Basic Use Case: Web Site "SOMA Test"
+      - Create First Use Case: Experimental Login at ELSA, display avatar pic
+      - Create Second Use Case: Experimental Simple Chat (ESC)
+      - Create Third Use Case: WebRTC Based Experimental Private Call (unicast)
    - Design of "Simple ALP Login Server Application (SALSA)"
       - the login server will be accessed via and located within a secure VPN
         (no additional encryption will be necessary, but that of the VPN)
