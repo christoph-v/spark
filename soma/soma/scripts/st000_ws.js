@@ -1,6 +1,16 @@
-const nav_ul_main = document.getElementById("st_nav_main"); // TODO: error handling
+// initialize the main menu (<nav><ul> of the page shall have id="st_nav_main")
 
-nav_ul_main.innerHTML = make_menu_main();
+try {
+
+    document.getElementById("st_nav_main").innerHTML = make_menu_main();
+
+} catch (err) {
+
+    alert("Cannot find main menu id=\"st_nav_main\" at page\nError: " + err + ".");
+
+}
+
+// enter more initializations here ......
 
 
 function make_menu_main() {
