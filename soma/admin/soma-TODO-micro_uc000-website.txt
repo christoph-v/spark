@@ -1,13 +1,13 @@
 Create Basic Use Case: Web Site "SOMA Test"
 
-   - Datei st000_hp.htm anlegen ("SOMA Test, Use Case 000 - Home Page")
-   - Erstellen des Menues mit Hilfe von JavaScript
-      - scripts Verzeichnis anlegen, scripts/st000_ws.js (ws = web site)
-      - initialer Inhalt des Menues (provisorisches Nav Element):
-         - UC-000 “Intranet of the Society”
-         - UC-001 “Experimental Login at ELSA”
-         - UC-002 “Experimental Simple Chat (ESC)”
-         - UC-003 “WebRTC Based Experimental Private Call (unicast)”
+DON- Datei st000_hp.htm anlegen ("SOMA Test, Use Case 000 - Home Page")
+DON- Erstellen des Menues mit Hilfe von JavaScript
+   DON- scripts Verzeichnis anlegen, scripts/st000_ws.js (ws = web site)
+   DON- initialer Inhalt des Menues (provisorisches Nav Element):
+      DON- UC-000 “Intranet of the Society”
+      DON- UC-001 “Experimental Login at ELSA”
+      DON- UC-002 “Experimental Simple Chat (ESC)”
+      DON- UC-003 “WebRTC Based Experimental Private Call (unicast)”
    - Home Page (nicht Web Site!!!) entwerfen (Content)
       - CSS systematisch erstellen
          - css Verzeichnis anlegen, css/st000_styles.css
