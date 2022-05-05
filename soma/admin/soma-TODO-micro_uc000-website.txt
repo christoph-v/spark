@@ -8,7 +8,7 @@ DON- Erstellen des Menues mit Hilfe von JavaScript
       DON- UC-001 “Experimental Login at ELSA”
       DON- UC-002 “Experimental Simple Chat (ESC)”
       DON- UC-003 “WebRTC Based Experimental Private Call (unicast)”
-   - Home Page (nicht Web Site!!!) entwerfen (Content)
+ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
       - CSS systematisch erstellen
          - css Verzeichnis anlegen, css/st000_styles.css
          - Schriftbild, Farben und Hintergrundbilder
