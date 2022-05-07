@@ -1,0 +1,11 @@
+html {background-color: #008080;
+      color: #e0e0e0;
+}
+
+:link {background-color: #e0e0e0;
+       color: #0000ff;
+}
+
+:visited {background-color: #0000ff;
+          color: #e0e0e0;
+}
