@@ -1,11 +1,20 @@
-html {background-color: #008080;
-      color: #e0e0e0;
+body {
+    background-color: #008080;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
 }
 
-:link {background-color: #e0e0e0;
-       color: #0000ff;
+h1 {
+    background-image: url(../img/banner-soma.jpg);
+    background-clip: border-box;
+    color: #000000;
+    text-shadow: 2px 2px #e0e0e0;
 }
 
-:visited {background-color: #0000ff;
-          color: #e0e0e0;
+:link {
+    color: #d00000;
+}
+
+:visited {
+    color: #000040;
 }

@@ -25,11 +25,11 @@ function make_addl_links() {
 
     // modify this
     let addl_links =
-        "<li><a href=\"https://areasharpa.blog\">Area#A (Blog)</li>" +
+        "<li><a href=\"https://areasharpa.blog/about\">Area#A (Blog)</li>" +
         "<li><a href=\"https://github.com/christoph-v/spark\">S&amp;P-ARK (GitHub Repository)</li>" +
-        "<li><a href=\"https://lc-soc-lc.or.at\">Society for Lifelong Collaborating</li>" +
+        "<li><a href=\"https://lc-soc-lc.or.at\">Society for Lifelong Collaborating (Web Site)</li>" +
         "<li><a href=\"https://github.com/christoph-v/spark/tree/master/soma/soma\">SOMA (part of S&amp;P-ARK)</li>" +
-        "<li><a href=\"https://lc-soc-lc.at\">Lost Children Society for Lifelong Collaborating</li>";
+        "<li><a href=\"https://lc-soc-lc.at\">Lost Children Society for Lifelong Collaborating (Web Site)</li>";
 
     return addl_links;    
 }
