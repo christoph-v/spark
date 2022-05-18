@@ -13,7 +13,7 @@ ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
       DON- css Verzeichnis anlegen, css/st000_styles.css
       DON- Schriftbild, Farben und Hintergrundbilder
          - Check the Meta Tags
-         - Create soma README
+      DON- Create soma README
          - Positionen und Rahmen – für Mobiles, Tablets, Laptops und echte Computer
          - accessibility
       - Guest account

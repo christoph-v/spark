@@ -15,4 +15,5 @@ One possibility to test the SOMA tools, will be the
 [SOMA Test Web Site](https://lc-soc-lc.at/soma).
 
 Yours Christoph
+
 Vienna, 2022-05-18
