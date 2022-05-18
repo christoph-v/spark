@@ -4,15 +4,18 @@ DON- Datei st000_hp.htm anlegen ("SOMA Test, Use Case 000 - Home Page")
 DON- Erstellen des Menues mit Hilfe von JavaScript
    DON- scripts Verzeichnis anlegen, scripts/st000_ws.js (ws = web site)
    DON- initialer Inhalt des Menues (provisorisches Nav Element):
-      DON- UC-000 “Intranet of the Society”
-      DON- UC-001 “Experimental Login at ELSA”
-      DON- UC-002 “Experimental Simple Chat (ESC)”
-      DON- UC-003 “WebRTC Based Experimental Private Call (unicast)”
+      DON- UC-000 â€œIntranet of the Societyâ€
+      DON- UC-001 â€œExperimental Login at ELSAâ€
+      DON- UC-002 â€œExperimental Simple Chat (ESC)â€
+      DON- UC-003 â€œWebRTC Based Experimental Private Call (unicast)â€
 ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
    ONG- CSS systematisch erstellen
       DON- css Verzeichnis anlegen, css/st000_styles.css
       DON- Schriftbild, Farben und Hintergrundbilder
-         - Positionen und Rahmen – für Mobiles, Tablets, Laptops und echte Computer
+         - Check the Meta Tags
+         - Create soma README
+         - Positionen und Rahmen â€“ fÃ¼r Mobiles, Tablets, Laptops und echte Computer
+         - accessibility
       - Guest account
          - owncloud "scripts" (o.ae.)
             - um einen Account anzulegen
