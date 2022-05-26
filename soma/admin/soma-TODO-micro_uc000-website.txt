@@ -12,10 +12,10 @@ ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
    ONG- CSS systematisch erstellen
       DON- css Verzeichnis anlegen, css/st000_styles.css
       DON- Schriftbild, Farben und Hintergrundbilder
-         - Check the Meta Tags
+      DON- Check the Meta Tags
       DON- Create soma README
-         - Positionen und Rahmen – für Mobiles, Tablets, Laptops und echte Computer
-         - accessibility
+      SKP- Positionen und Rahmen – für Mobiles, Tablets, Laptops und echte Computer
+      SKP- accessibility
       - Guest account
          - owncloud "scripts" (o.ae.)
             - um einen Account anzulegen

@@ -2,7 +2,7 @@
 Simple OwnCloud Based Management of Associations
 
 ## Short Description
-SOMA tries to implement soma Web based tool(s) for the administration of small,
+SOMA tries to implement some Web based tool(s) for the administration of small,
 closed groups of people (e.g. small private associations).
 
 In a first approach, those tools shall be based on VPNs (one VPN per
