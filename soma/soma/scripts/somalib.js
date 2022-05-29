@@ -1,1 +1,1 @@
-alert(JSON.stringify(somaCfg,null,4));
+alert(JSON.stringify(userCfg,null,4));

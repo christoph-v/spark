@@ -1,4 +1,4 @@
 var somaCfg = {
-    authenticator: "https://lc-soc-lc.at/owncloud",
+    authenticator: "none",
     loginpage: "./st001_login-oc.htm"
 }

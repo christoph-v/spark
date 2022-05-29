@@ -1,0 +1,3 @@
+var userCfg = {
+                  user: "guest"
+              };

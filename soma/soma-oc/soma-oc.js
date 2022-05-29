@@ -110,16 +110,13 @@ function readCfg (cfgName) {
 function createUser (uid, cfgPath) {
     
     try {
-        const somaConfig = {
-            user: uid,
-        };
-    
-        rawSomaConfig = JSON.stringify(somaConfig, null, beautify);
-    
-        fs.writeFileSync(cfgPath, rawSomaConfig, {mode: 0o644});
+        const userConfig = 'var userCfg = {\n' +
+                           '                  user: "' + uid + '"\n' +
+                           '              };\n';
+        fs.writeFileSync(cfgPath, userConfig, {mode: 0o644});
     } catch (err) {
         console.error(err);
-        throw('cannot write SOMA config for user ' + uid);
+        throw('cannot write SOMA user config for user ' + uid);
     }
     
 }
