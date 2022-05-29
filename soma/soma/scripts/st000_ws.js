@@ -13,7 +13,7 @@ function make_menu_main() {
     let menu_main =
         "<li><a href=\"index.html\">Home Page</li>" +
         "<li><a href=\"st000_intro.htm\">Introduction to SOMA Test</li>" +
-        "<li><a href=\"index.html\">Experimental Login at ELSA</li>" +
+        "<li><a href=\"" + somaCfg.loginpage + "\">Login to SOMA</li>" +
         "<li><a href=\"index.html\">Experimental Simple Chat (ESC)</li>" +
         "<li><a href=\"index.html\">WebRTC Based Experimental Private Call (unicast)</li>";
 

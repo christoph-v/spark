@@ -1,0 +1,7 @@
+{
+    "prefix": "../..",
+    "suffix": "private/config-soma.json",
+    "occ_cmd": "/var/www/html/owncloud/occ",
+    "occ_cwd": "/var/www/html/owncloud",
+    "occ_scan_cmd": "files:scan --path=\"/ben-yeti/files/admin-data/users\""
+}

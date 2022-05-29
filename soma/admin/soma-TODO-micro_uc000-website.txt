@@ -18,7 +18,7 @@ ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
       SKP- accessibility
    ONG- Guest account
       ONG- owncloud "scripts" (o.ae.)
-            - um einen Account anzulegen
+         ONG- um einen Account anzulegen
             - um die roles zu setzen
             - um das Passwort zu setzen
             - um die elsa_addr zu setzen
