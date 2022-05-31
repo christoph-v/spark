@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPERIMENTS - Cookies</title>
+    <meta name="description" content="EXPERIMENTS - Cookies">
+    <meta name="created"     content="30 May 2022">
+    <meta name="revised"     content="30 May 2022">
+   <link rel="stylesheet" href="styles/st000_styles.css" title="Default Stylesheet">
+   <script type="application/javascript">
+     function initialize_js () {
+         try {
+             const readBtn = document.getElementById('readCookie');
+             readBtn.addEventListener('click', readCookie);
+             const setBtn = document.getElementById('setCookie');
+             setBtn.addEventListener('click', setCookie);
+         } catch (err) {
+             console.log(err);
+             alert('Cannot initialize JavaScript\nError: ' + err + '.');
+         }
+     }
+
+     function readCookie (event) {
+         let Wert = "";
+         if (document.cookie) {
+             Wert = document.cookie;
+         }
+         alert('cookie=.' + Wert + '.');
+         if (window.location)
+             alert('window.location=' + window.location);
+         else
+             alert('window.location=NULL');
+         if (document.location)
+             alert('document.location=' + document.location);
+         else
+             alert('document.location=NULL');
+     }
+     
+     function setCookie (event) {
+         let cnameTxt = null;
+         let cvalueTxt = null
+         try {
+             cnameTxt = document.getElementById('cname');
+             cvalueTxt = document.getElementById('cvalue');
+             if (cnameTxt.value && cnameTxt.value.length && cvalueTxt.value && cvalueTxt.value.length) {
+             } else {
+                 throw('cannot read cookie data from web page');
+             }
+         } catch (err) {
+             console.log(err);
+             alert('Cannot set Cookie\nError: ' + err + '.');
+             return;
+         }
+         let jetzt = new Date();
+         let Auszeit = new Date(jetzt.getTime() + 24*60*60*1000);
+         let cookie = cnameTxt.value + "=" + cvalueTxt.value + "; expires=" + Auszeit.toGMTString() + ";";
+         alert('writing cookie=.' + cookie + '.');
+         document.cookie = cookie;
+     }
+     
+     try {
+         document.addEventListener("DOMContentLoaded", initialize_js);
+     } catch (err) {
+         console.log(err);
+         alert('Cannot add DOMContentLoaded event listener\nError: ' + err + '.');
+     }
+   </script>
+  </head>
+  <body>
+    <header>
+      <h1>EXPERIMENTS - Cookies</h1>
+      <nav>
+        <ul id="st_nav_main">
+          <li>No Main Menu</li>
+        </ul>
+      </nav>
+    </header>
+   
+    <main>
+      <article>
+        <h2>EXPERIMENTS - Cookies</h2>
+        <form>
+          <p><label for="cname">Cookie Name</label>
+          <input type="text" size="35" id="cname" name="cname"></p>
+          <p><label for="cvalue">Cookie Value</label>
+          <input type="text" size="35" id="cvalue" name="cvalue"></p>
+        </form>
+        <p><button id="setCookie">Set Cookie</button><button id="readCookie">Read Cookie</button></p>
+      </article>
+ 
+      <aside>
+        <p>No Aside</p>
+      </aside>
+    </main>
+ 
+    <footer>
+      <p>No Footer</p>
+    </footer>
+  </body>
+</html>
