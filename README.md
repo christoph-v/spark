@@ -86,7 +86,7 @@ We acknowledge following additional resources of information
 
 Deadline: it's done, when it's done
 
-[Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/soma/admin/soma-TODO-detailed.txt)
+[Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/ALPES/admin/soma-TODO-detailed.txt)
 
 0. Some Preparations (ONGOING)
    - Setup the Infrastructure (DONE)
