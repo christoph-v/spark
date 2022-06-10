@@ -1,47 +1,77 @@
-# S&P-ARK
+# DIGITS / S&P-ARK
+
+Distributed Internet Geographic Infrastructure Transmission Service
+
 Simple Playground - Achieving Required Knowledge
+
+It's all about the ALP.
 
 # The Vision
 
 Well, every journey starts with the first step.
 
-But before we talk about the first step, let’s rather talk about the goals, and let’s talk about the vision.
+But before we talk about the first step, let’s rather talk about the goals, and
+let’s talk about the vision.
 
-The Internet – when it barely provided **the TELNET, the E-MAIL and the FTP services** – was not more than “just the Internet”. Only a few scientists and technicians knew about the existence of the Internet.
+The Internet – when it barely provided **the TELNET, the E-MAIL and the FTP
+services** – was not more than “just the Internet”. Only a few scientists and
+technicians knew about the existence of the Internet.
 
-This should change with **the invention of HTML (and its extensions CSS and JavaScript)**, when the Internet became to be the “World Wide Web (WWW)”.
+This should change with **the invention of HTML (and its extensions CSS and
+JavaScript)**, when the Internet became to be the “World Wide Web (WWW)”.
 
-Nowadays, though many of the circumstances changed – financial, organizational, political and lawful circumstances, just to list some of them – the Internet is still based on the “working horse” HTML.
+Nowadays, though many of the circumstances changed – financial, organizational,
+political and lawful circumstances, just to list some of them – the Internet is
+still based on the “working horse” HTML.
 
-However, nowadays the HTML content of the web pages is accompanied by many new services like streaming services for offline or online real time media (voice, music, video), by services for up- and download of arbitrary files and by peer to peer services for files, voice, music and video, as well as instant messages.
+However, nowadays the HTML content of the web pages is accompanied by many new
+services like streaming services for offline or online real time media (voice,
+music, video), by services for up- and download of arbitrary files and by peer
+to peer services for files, voice, music and video, as well as instant messages.
 
-Nearly any information that can be expressed as digital data, can be exchanged via the Internet, so **the Internet is actually a vast Collaboration Tool for Humanity**.
+Nearly any information that can be expressed as digital data, can be exchanged
+via the Internet, so **the Internet is actually a "Vast Collaboration Tool for
+Mankind"**.
 
-Just **one thing is still restricted to the gaming community and has not yet found the broad acceptance by the mainstream of Internet companies and Internet communities**:
+Just **one thing is still restricted to the gaming community and has not yet
+found the broad acceptance by the mainstream of Internet companies and Internet
+communities**:
 
-- This is real time 3D computer graphics and, even better, virtual reality and mixed reality.
+- This is real time 3D computer graphics and, even better, virtual reality and
+  mixed reality.
 
-**With X3D / WebGL and WebXR**, all we hope is that the Internet once again changes its face and becomes a kind of “Enternet”, so to “enter” a greater – virtual – universe that helps us to cope with our original – real – universe.
+**With X3D / WebGL and WebXR**, all we hope is that the Internet once again
+changes its face and becomes a kind of “Enternet”, so to “enter” a greater –
+virtual – universe that helps us to cope with our original – real – universe.
 
-Another possible vision besides the “Enternet” would be the “3D Web”, which provides basic access to a broad variety of 3D resources and free geographic infrastructure.
+Another possible vision besides the “Enternet” would be the “3D Web”, which
+provides basic access to a broad variety of 3D resources and free geographic
+infrastructure.
 
 **Metaphoric speech**:
 
-The “Enternet” and the “3D Web” would be two siblings, which would provide the most important building blocks for Integrated 3D Collaboration Services.
+The “Enternet” and the “3D Web” would be two siblings, which would provide the
+most important building blocks for Integrated 3D Collaboration Services.
 
-The “Enternet” would provide the basic 3D Multiuser functions (including the UI for the users and the connection to the IoT),
+The “Enternet” would provide the basic 3D Multiuser functions (including the UI
+for the users and the connection to the IoT),
 
-the “3D Web” would provide for efficient download of 3D resources and geographic infrastructure.
+the “3D Web” would provide for efficient download of 3D resources and
+geographic infrastructure.
 
 Both should be “grown up together”, to be compatible to each other.
 
 # Latest Achievements
 
-In spring 2022, we decided to actually start the S&P-ARK project. [The very first step will be ELSA](https://github.com/christoph-v/spark/wiki/ELSA).
+In spring 2022, we decided to actually start the S&P-ARK project. [The very
+first step will be ELSA](https://github.com/christoph-v/spark/wiki/ELSA).
 
-Actually, S&P-ARK is a [part of the DIGITS Project (which is rather a Vision than a Project)](https://github.com/christoph-v/digits), however, it is managed in a [separate repository](https://github.com/christoph-v/spark).
+Actually, S&P-ARK is a [part of the DIGITS Project (which is rather a Vision
+than a Project)](https://github.com/christoph-v/digits), however, it is managed
+in a [separate repository](https://github.com/christoph-v/spark).
 
-Recently, an own WIKI page has been introduced to better explain the [connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
+Recently, an own WIKI page has been introduced to better explain the
+[connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
 
 # Statements
 
