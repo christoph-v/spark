@@ -39,7 +39,7 @@ Both should be “grown up together”, to be compatible to each other.
 
 In spring 2022, we decided to actually start the S&P-ARK project. [The very first step will be ELSA](https://github.com/christoph-v/spark/wiki/ELSA).
 
-Actually, S&P-ARK is a [part of the DIGITS Project (which is rather a Vision than a Project)](https://github.com/christoph-v/digits), however, it is managed in a separate repository.
+Actually, S&P-ARK is a [part of the DIGITS Project (which is rather a Vision than a Project)](https://github.com/christoph-v/digits), however, it is managed in a [separate repository](https://github.com/christoph-v/spark).
 
 Recently, an own WIKI page has been introduced to better explain the [connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
 
