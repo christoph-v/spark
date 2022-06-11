@@ -1,10 +1,10 @@
-# DIGITS / S&P-ARK
+# DIGITS / S&P-ARK / ALPES
 
-Distributed Internet Geographic Infrastructure Transmission Service
+Distributed Internet Geographic Infrastructure Transmission Service (DIGITS)
 
-Simple Playground - Achieving Required Knowledge
+Simple Playground - Achieving Required Knowledge (S&P-ARK)
 
-It's all about the ALP.
+Application Layer Protocol, Experimental Setup (ALPES)
 
 # The Vision
 
@@ -74,6 +74,8 @@ in a separate repository (this repository).
 Recently, an own WIKI page has been introduced to better explain the
 [connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
 
+Puchberg, 2022-06-11
+
 # Statements
 
 Following statements are intended to hold true for this repository
@@ -122,6 +124,7 @@ Deadline: it's done, when it's done
 0. Some Preparations (ONGOING)
    - Setup the Infrastructure (DONE)
    - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js) - (ONGOING)
+   - Design of "Experimental Login Server Application (ELSA)" - (ONGOING)
 1. Try multicast WebRTC voice conference with HTTP Login and pure Node.js
    - Design of "Simple ALP Login Server Application (SALSA)"
 2. If this works --> try the same with video

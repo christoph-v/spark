@@ -16,4 +16,4 @@ One possibility to test the SOMA tools, will be the
 
 Yours Christoph
 
-Vienna, 2022-05-18
+Puchberg, 2022-06-11

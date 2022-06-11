@@ -8,7 +8,7 @@ DON- Erstellen des Menues mit Hilfe von JavaScript
       DON- UC-001 “Experimental Login at ELSA”
       DON- UC-002 “Experimental Simple Chat (ESC)”
       DON- UC-003 “WebRTC Based Experimental Private Call (unicast)”
-ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
+DON- Web Site entwerfen
    DON- CSS systematisch erstellen
       DON- css Verzeichnis anlegen, css/st000_styles.css
       DON- Schriftbild, Farben und Hintergrundbilder
@@ -16,24 +16,3 @@ ONG- Home Page (nicht Web Site!!!) entwerfen (Content)
       DON- Create soma README
       SKP- Positionen und Rahmen – für Mobiles, Tablets, Laptops und echte Computer
       SKP- accessibility
-   ONG- Guest account
-      ONG- owncloud "scripts" (o.ae.)
-         ONG- um einen Account anzulegen
-            - um die roles zu setzen
-            - um das Passwort zu setzen
-            - um die elsa_addr zu setzen
-         - Datei ../private/config-soma.json anlegen mit guest credentials
-            - Inhalt der config-soma.json, zum Beispiel
-               - uid
-               - roles
-               - hash_uid_roles_secret1
-               - hash_uid_pwd_secret2
-               - cfgseq
-               - elsa_addr
-      - whoami implementieren, mit guest testen (CORS, auch vom vServer)
-      - yeti account "normal" anlegen
-      - whoami mit yeti testen
-      - passwd implementieren, mit guest und yeti testen
-      - Accessibility
-Open Issues:
-      - Kann man ../private auf einem WebServer verwenden (fuer einen guest)?
