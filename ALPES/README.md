@@ -8,7 +8,7 @@ Application Layer Protocol, Experimental Setup (ALPES)
 
 # Application Layer Protocol, Experimental Setup (ALPES)
 
-The Experimental Setup is installed at our vServer [https://lc-soc-lc.at](https://lc-soc-lc.at).
+The Experimental Setup is installed at our vServer [https://lc-soc-lc.at/addendum.htm](https://lc-soc-lc.at/addendum.htm).
 
 There we use the infrastructure of the **"Society for Lifelong Collaborating"**,
 which is currently provided by our Webmaster ben-yeti.
