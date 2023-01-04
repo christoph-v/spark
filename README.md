@@ -82,12 +82,12 @@ Following statements are intended to hold true for this repository
 
 ## 1. S&P-ARK, The Project
 
-S&P-ARK was not a "real" project, but it was used to publish my opinion
+S&P-ARK is not a "real" project, but it is used to publish my opinion
 about a project / or about projects / that should be conducted by the Web3D
 Community to elaborate the "Community Requirements" for the NSN and to use the
 NSN, after it will have been standardized
 
-### 1.1. Now (2022-03-24) the Project is actually started
+### 1.1. Now (2022-03-24) the "Template" Project is actually started
 
 with following TODO List
 
@@ -142,7 +142,7 @@ Next step: tinker with X3Dv4
 
 - Develop a Demo Simple Multiuser Scene x) with Working Title "Spaceship Web3D" - tbd.
 - SMS-BONES-GPS: Support Standardization of Network Sensor Node (NSN) xx)
-- Hence igniting what-I-call SMS Biotope or Extended Universe (Working Title)
+- Hence helping to ignite what-I-call SMS Biotope or Extended Universe (Working Title)
 
 x)  
 A Simple Multiuser Scene is an X3Dv4 xxx) MU Scene, which uses standardized
