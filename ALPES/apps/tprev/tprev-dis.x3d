@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN"
+  "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D profile='Immersive' version='3.3'>
+<head>
+    <meta content='*enter FileNameWithNoAbbreviations.x3d here*' name='title'/>
+    <meta content='*enter description here, short-sentence summaries preferred*' name='description'/>
+    <meta content='*enter name of original author here*' name='creator'/>
+    <meta content='*if manually translating VRML-to-X3D, enter name of person translating here*' name='translator'/>
+    <meta content='*enter date of initial version here*' name='created'/>
+    <meta content='*enter date of translation here*' name='translated'/>
+    <meta content='*enter date of latest revision here*' name='modified'/>
+    <meta content='*enter version here, if any*' name='version'/>
+    <meta content='*enter reference citation or relative/online url here*' name='reference'/>
+    <meta content='*enter additional url/bibliographic reference information here*' name='reference'/>
+    <meta content='*enter reference resource here if required to support function, delivery, or coherence of content*' name='requires'/>
+    <meta content='*enter copyright information here* Example: Copyright (c) Web3D Consortium Inc. 2008' name='rights'/>
+    <meta content='*enter drawing filename/url here*' name='drawing'/>
+    <meta content='*enter image filename/url here*' name='image'/>
+    <meta content='*enter movie filename/url here*' name='MovingImage'/>
+    <meta content='*enter photo filename/url here*' name='photo'/>
+    <meta content='*enter subject keywords here*' name='subject'/>
+    <meta content='*enter permission statements or url here*' name='accessRights'/>
+    <meta content='*insert any known warnings, bugs or errors here*' name='warning'/>
+    <meta content='*enter online Uniform Resource Identifier (URI) or Uniform Resource Locator (URL) address for this file here*' name='identifier'/>
+    <meta content='PSPad, http://www.pspad.com/' name='generator'/>
+    <meta content='license.html' name='license'/>
+    <!-- Additional authoring resources for meta-tags: http://www.dublincore.org/documents/dcmi-terms http://www.dublincore.org/documents/dces http://www.w3.org/TR/html4/struct/global.html#h-7.4.4 http://vancouver-webpages.com/META http://vancouver-webpages.com/META/about-mk-metas2.html Additional authoring resources for language codes: ftp://ftp.isi.edu/in-notes/bcp/bcp47.txt http://www.loc.gov/standards/iso639-2/langhome.html http://www.iana.org/numbers.html#L -->
+</head>
+<!-- "The Teapot Review (TPREV)", a simple MU scene using DIS Sensor Event Distribution,
+     It is assumed the reviewers (users) have a non-X3D voice channel (e.g. TeamSpeak)
+     open for their "discussion about the teapot" -->
+<Scene>
+  <!-- LayerSet with two layers, navigation happens in layer 1 -->
+  <LayerSet activeLayer='1' order='1 2' >
+    <!-- the first Layer contains the main scenery - "The Review of the Teapot (DIS Multiuser)" -->
+    <Layer isPickable='true'>
+      <!-- basic nodes, which might be present in any scene -->
+      <NavigationInfo headlight="true" type='"EXAMINE"' avatarSize="0.25, 1.75, 0.75"   />
+      <Background groundColor=".3 .3 .3" skyColor=".6 .6 .6" />
+      <DirectionalLight ambientIntensity=".2" direction="0 -1 -0" />
+      <DirectionalLight ambientIntensity=".2" direction="-1 -.1 -1" />
+      <Viewpoint description='My Overview' fieldOfView='1.570796' position='0 1.75 60' />
+      <!-- this group contains the red/green/blue 3D crosshair -->
+      <Group>
+        <!-- Arrow X -->
+        <Transform translation="25 0 0" rotation="0 0 -1 1.57">
+          <Shape>
+            <Cylinder DEF="Shaft" radius=".35" height="50" />
+            <Appearance>
+              <Material DEF="RED" diffuseColor="1 0 0" emissiveColor="1 0 0" />
+            </Appearance>
+          </Shape>
+        </Transform>
+        <Transform translation="50 0 0" rotation="0 0 -1 1.57">
+          <Shape>
+            <Cone DEF="Tip" bottomRadius=".8" height="3" />
+            <Appearance>
+              <Material USE="RED" />
+            </Appearance>
+          </Shape>
+        </Transform>
+        <!-- Arrow Y -->
+        <Transform translation="0 25 0" rotation="0 1 0 0">
+          <Shape>
+            <Cylinder USE="Shaft" />
+            <Appearance>
+              <Material DEF="GREEN" diffuseColor="0 1 0" emissiveColor="0 1 0" />
+            </Appearance>
+          </Shape>
+        </Transform>
+        <Transform translation="0 50 0" rotation="0 1 0 0">
+          <Shape>
+            <Cone USE="Tip" />
+            <Appearance>
+              <Material USE="GREEN" />
+            </Appearance>
+          </Shape>
+        </Transform>
+        <!-- Arrow Z -->
+        <Transform translation="0 0 25" rotation="1 0 0 1.57">
+          <Shape>
+            <Cylinder USE="Shaft" />
+            <Appearance>
+              <Material DEF="BLUE" diffuseColor="0 0 1" emissiveColor="0 0 1" />
+            </Appearance>
+          </Shape>
+        </Transform>
+        <Transform translation="0 0 50" rotation="1 0 0 1.57">
+          <Shape>
+            <Cone USE="Tip" />
+            <Appearance>
+              <Material USE="BLUE" />
+            </Appearance>
+          </Shape>
+        </Transform>
+      </Group>
+      <!-- the model that is being reviewed by the users of this scene -->
+      <Transform DEF="TeapotTransform">
+        <Inline DEF="Teapot" url='"https://www.web3d.org/x3d/content/examples/Basic/CAD/CadTeapot.x3d"' />
+      </Transform>
+      <!-- DIS multiuser facilities -->
+      <DISEntityManager DEF='EntityManager' networkMode='networkReader' >
+        <DISEntityTypeMapping category='77' specific='1' url='"smiley1.x3d" '/>
+        <DISEntityTypeMapping category='77' specific='2' url='"smiley2.x3d"'/>
+      </DISEntityManager>
+      <Collision enabled='false'>
+        <Group DEF='AvatarHolder'/>
+      </Collision>
+      <ROUTE fromField='addedEntities' fromNode='EntityManager' toField='addChildren' toNode='AvatarHolder'/>
+      <ROUTE fromField='removedEntities' fromNode='EntityManager' toField='removeChildren' toNode='AvatarHolder'/>
+    </Layer>
+    <!-- the second layer contains the sliders that are moved with the user's display
+         like a HUD (heads up display) -->
+    <LayoutLayer isPickable='true'>
+      <!-- positioning the LayoutLayer -->
+      <Layout containerField='layout' align='"RIGHT","BOTTOM"' offset='0.0, 0.0' offsetUnits='"WORLD","WORLD"' scaleMode='"NONE","NONE"' size='0.4, 0.35' sizeUnits='"WORLD","WORLD"'/>
+      <!-- clipping the LayoutLayer -->
+      <Viewport containerField='viewport' clipBoundary='0, 1, 0, 1'/>
+      <!-- the content (children) of the LayoutLayer -->
+      <!-- first, the slider for scaling the model -->
+      <Transform translation="0 0 -3">
+          <Shape >
+            <Appearance >
+              <Material diffuseColor="0 0 0" emissiveColor="0 0 0" transparency="0.7" />
+            </Appearance>
+            <Box size="100 100 0.02" />
+          </Shape>
+      </Transform>
+      <Transform DEF="ScaleSlider" translation="0 -0.6 0">
+        <Transform rotation="0 0 1 1.57">
+          <Shape >
+            <Appearance >
+              <Material >
+              </Material>
+            </Appearance>
+            <Cylinder radius=".05" height="2.5" />
+          </Shape>
+        </Transform>
+        <!--  the plane sensor  -->
+        <Transform DEF="ScaleTransform" translation="0 0 0.1">
+          <PlaneSensor DEF="ScaleSensor" description="click and drag to scale the model" minPosition="-1 0" maxPosition="1 0"/>
+          <Transform translation="0 0.3 0">
+            <TouchSensor DEF="ScaleTS" description="click to delete the model"/>
+            <Shape>
+              <Sphere radius="0.08"/>
+              <Appearance>
+                <Material diffuseColor="1 0 0"/>
+              </Appearance>
+            </Shape>
+          </Transform>
+          <Shape>
+            <Cylinder radius="0.05" height="0.6" />
+            <Appearance>
+              <Material/>
+            </Appearance>
+          </Shape>
+        </Transform>
+        <!-- move the slider itself -->
+        <ROUTE fromField='translation_changed' fromNode='ScaleSensor' toField='translation' toNode='ScaleTransform'/>
+        <!-- modify the model -->
+        <Script DEF='ScaleTransformerScript' directOutput="true" mustEvaluate="true">
+          <!--  helper calculations  -->
+          <field accessType='inputOnly' name='newTranslation' type='SFVec3f'/>
+          <field accessType='inputOutput' name='scale_changed' type='SFVec3f' value='1.0 1.0 1.0'/>
+<![CDATA[
+ecmascript:
+
+function newTranslation(Value)
+{
+    scale_changed = new SFVec3f(Value.x + 1.0, Value.x + 1.0, Value.x + 1.0);
+}
+
+]]>
+        </Script>
+        <ROUTE fromField='translation_changed' fromNode='ScaleSensor' toField='newTranslation' toNode='ScaleTransformerScript'/>
+        <ROUTE fromField='scale_changed' fromNode='ScaleTransformerScript' toField='scale' toNode='TeapotTransform'/>
+      </Transform>
+    </LayoutLayer>
+  </LayerSet>
+</Scene>
+</X3D>
