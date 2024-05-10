@@ -8,22 +8,18 @@ Application Layer Protocol, Experimental Setup (ALPES)
 
 # Application Layer Protocol, Experimental Setup (ALPES)
 
-The Experimental Setup is installed at our vServer [https://lc-soc-lc.at/addendum.htm](https://lc-soc-lc.at/addendum.htm).
+NOTE ON FRIDAY, MAY 10th, 2024: The DIGITS / S&P - ARK / ALPES project is
+currently having very slow progress. The founding of our organizational
+infrastructure, the so-called **"Society for Lifelong Collaborating"**,
+took precedence over the actual ALPES project.
 
-There we use the infrastructure of the **"Society for Lifelong Collaborating"**,
-which is currently provided by our Webmaster ben-yeti.
+The **"Society for Lifelong Collaborating"** can now be found on the Internet
+domain [lc-soc-lc.or.at](https://lc-soc-lc.or.at)
 
-**"The Society"** has not yet been founded, but we are confident that we'll
-find some interest to join us in the future.
+Also, we are doing some experiments with the DIS protocol, currently, which are
+not actually connected to the ALPES project.
 
-The Experimental Setup intends to implement a few APPs, which will be based on
-HTML, CSS and JavaScript.
+So, the ALPES project is currently lower prioritized, while we try to establish
+some reliable infrastructure for all these activities.
 
-The APPs will use the **"Experimental Login Server Application (ELSA)"** to be
-able to authorize the used multimedia peer connections (which will be WebRTC 
-based).
-
-The first APP will be the **"Simple OwnCloud based Management of Associations"**
-APP (SOMA).
-
-Puchberg, 2022-06-11
+Puchberg, 2024-05-10

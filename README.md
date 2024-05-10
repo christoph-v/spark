@@ -63,6 +63,8 @@ Both should be “grown up together”, to be compatible to each other.
 
 # Latest Achievements
 
+## The Project had been started
+
 In spring 2022, we decided to actually start the S&P-ARK project. [The very
 first step will be ELSA](https://github.com/christoph-v/spark/wiki/ELSA) (Wiki
 Page).
@@ -75,6 +77,12 @@ Recently, an own WIKI page has been introduced to better explain the
 [connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
 
 Puchberg, 2022-06-11
+
+## Currently, we are striving to establish the infrastructure
+
+See the [README of the ALPES directory](https://github.com/christoph-v/spark/ALPES).
+
+Puchberg, 2024-05-10
 
 # Statements
 
@@ -115,16 +123,16 @@ We acknowledge following additional resources of information
 2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
 3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
 
-#### Phase 1 - Open Source Conferencing Tool (ONGOING)
+#### Phase 1 - Open Source Conferencing Tool (PAUSED FOR INFRASTRUCTURE)
 
 Deadline: it's done, when it's done
 
 [Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/ALPES/admin/soma-TODO-detailed.txt)
 
-0. Some Preparations (ONGOING)
+0. Some Preparations (PAUSED)
    - Setup the Infrastructure (DONE)
-   - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js) - (ONGOING)
-   - Design of "Experimental Login Server Application (ELSA)" - (ONGOING)
+   - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js) - (PAUSED)
+   - Design of "Experimental Login Server Application (ELSA)" - (PAUSED)
 1. Try multicast WebRTC voice conference with HTTP Login and pure Node.js
    - Design of "Simple ALP Login Server Application (SALSA)"
 2. If this works --> try the same with video
