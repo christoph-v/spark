@@ -80,7 +80,7 @@ Puchberg, 2022-06-11
 
 ## Currently, we are striving to establish the infrastructure
 
-See the [README of the ALPES directory](https://github.com/christoph-v/spark/ALPES).
+See the [README of the ALPES directory](https://github.com/christoph-v/spark/tree/master/ALPES).
 
 Puchberg, 2024-05-10
 
