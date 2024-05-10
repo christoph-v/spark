@@ -96,8 +96,14 @@
         </Transform>
       </Group>
       <!-- the model that is being reviewed by the users of this scene -->
-      <Transform DEF="TeapotTransform">
-        <Inline DEF="Teapot" url='"https://www.web3d.org/x3d/content/examples/Basic/CAD/CadTeapot.x3d"' />
+      <Transform DEF="ModelHeadingTransform">
+         <Transform DEF="ModelPitchTransform">
+            <Transform DEF="ModelRollTransform">
+               <Transform DEF="TeapotTransform">
+                  <Inline DEF="Teapot" url='"https://www.web3d.org/x3d/content/examples/Basic/CAD/CadTeapot.x3d"' />
+               </Transform>
+            </Transform>
+         </Transform>
       </Transform>
       <!-- DIS multiuser facilities -->
       <DISEntityManager DEF='EntityManager' networkMode='networkReader' >
@@ -140,15 +146,6 @@
         <!--  the plane sensor  -->
         <Transform DEF="ScaleTransform" translation="0 0 0.1">
           <PlaneSensor DEF="ScaleSensor" description="click and drag to scale the model" minPosition="-1 0" maxPosition="1 0"/>
-          <Transform translation="0 0.3 0">
-            <TouchSensor DEF="ScaleTS" description="click to delete the model"/>
-            <Shape>
-              <Sphere radius="0.08"/>
-              <Appearance>
-                <Material diffuseColor="1 0 0"/>
-              </Appearance>
-            </Shape>
-          </Transform>
           <Shape>
             <Cylinder radius="0.05" height="0.6" />
             <Appearance>
@@ -175,6 +172,126 @@ function newTranslation(Value)
         </Script>
         <ROUTE fromField='translation_changed' fromNode='ScaleSensor' toField='newTranslation' toNode='ScaleTransformerScript'/>
         <ROUTE fromField='scale_changed' fromNode='ScaleTransformerScript' toField='scale' toNode='TeapotTransform'/>
+      </Transform>
+      <Transform DEF="RollSlider" translation="0 -0.2 0">
+        <Transform rotation="0 0 1 1.57">
+          <Shape >
+            <Appearance >
+              <Material >
+              </Material>
+            </Appearance>
+            <Cylinder radius=".05" height="2.5" />
+          </Shape>
+        </Transform>
+        <!--  the plane sensor  -->
+        <Transform DEF="RollTransform" translation="0 0 0.1">
+          <PlaneSensor DEF="RollSensor" description="click and drag to roll the model" minPosition="-1 0" maxPosition="1 0"/>
+          <Shape>
+            <Cylinder radius="0.05" height="0.6" />
+            <Appearance>
+              <Material/>
+            </Appearance>
+          </Shape>
+        </Transform>
+        <!-- move the slider itself -->
+        <ROUTE fromField='translation_changed' fromNode='RollSensor' toField='translation' toNode='RollTransform'/>
+        <!-- modify the model -->
+        <Script DEF='RollTransformerScript' directOutput="true" mustEvaluate="true">
+          <!--  helper calculations  -->
+          <field accessType='inputOnly' name='newTranslation' type='SFVec3f'/>
+          <field accessType='inputOutput' name='roll_changed' type='SFRotation' value='1.0 0.0 0.0 0.0'/>
+<![CDATA[
+ecmascript:
+
+function newTranslation(Value)
+{
+    roll_changed = new SFRotation(1.0, 0.0, 0.0, Value.x * Math.PI);
+}
+
+]]>
+        </Script>
+        <ROUTE fromField='translation_changed' fromNode='RollSensor' toField='newTranslation' toNode='RollTransformerScript'/>
+        <ROUTE fromField='roll_changed' fromNode='RollTransformerScript' toField='rotation' toNode='ModelRollTransform'/>
+      </Transform>
+      <Transform DEF="PitchSlider" translation="0 0.2 0">
+        <Transform rotation="0 0 1 1.57">
+          <Shape >
+            <Appearance >
+              <Material >
+              </Material>
+            </Appearance>
+            <Cylinder radius=".05" height="2.5" />
+          </Shape>
+        </Transform>
+        <!--  the plane sensor  -->
+        <Transform DEF="PitchTransform" translation="0 0 0.1">
+          <PlaneSensor DEF="PitchSensor" description="click and drag to change the pitch of the model" minPosition="-1 0" maxPosition="1 0"/>
+          <Shape>
+            <Cylinder radius="0.05" height="0.6" />
+            <Appearance>
+              <Material/>
+            </Appearance>
+          </Shape>
+        </Transform>
+        <!-- move the slider itself -->
+        <ROUTE fromField='translation_changed' fromNode='PitchSensor' toField='translation' toNode='PitchTransform'/>
+        <!-- modify the model -->
+        <Script DEF='PitchTransformerScript' directOutput="true" mustEvaluate="true">
+          <!--  helper calculations  -->
+          <field accessType='inputOnly' name='newTranslation' type='SFVec3f'/>
+          <field accessType='inputOutput' name='pitch_changed' type='SFRotation' value='0.0 0.0 1.0 0.0'/>
+<![CDATA[
+ecmascript:
+
+function newTranslation(Value)
+{
+    pitch_changed = new SFRotation(0.0, 0.0, 1.0, Value.x * Math.PI / 2.0);
+}
+
+]]>
+        </Script>
+        <ROUTE fromField='translation_changed' fromNode='PitchSensor' toField='newTranslation' toNode='PitchTransformerScript'/>
+        <ROUTE fromField='pitch_changed' fromNode='PitchTransformerScript' toField='rotation' toNode='ModelPitchTransform'/>
+      </Transform>
+      <Transform DEF="HeadingSlider" translation="0 0.6 0">
+        <Transform rotation="0 0 1 1.57">
+          <Shape >
+            <Appearance >
+              <Material >
+              </Material>
+            </Appearance>
+            <Cylinder radius=".05" height="2.5" />
+          </Shape>
+        </Transform>
+        <!--  the plane sensor  -->
+        <Transform DEF="HeadingTransform" translation="0 0 0.1">
+          <PlaneSensor DEF="HeadingSensor" description="click and drag to change the heading of the model" minPosition="-1 0" maxPosition="1 0"/>
+          <Shape>
+            <Cylinder radius="0.05" height="0.6" />
+            <Appearance>                                                                                     1
+              <Material/>
+            </Appearance>
+          </Shape>
+        </Transform>
+        <!-- move the slider itself -->
+        <ROUTE fromField='translation_changed' fromNode='HeadingSensor' toField='translation' toNode='HeadingTransform'/>
+        <!-- modify the model -->
+        <Script DEF='HeadingTransformerScript' directOutput="true" mustEvaluate="true">
+          <!--  helper calculations  -->
+          <field accessType='inputOnly' name='newTranslation' type='SFVec3f'/>
+          <field accessType='inputOutput' name='heading_changed' type='SFRotation' value='0.0 1.0 0.0 0.0'/>
+<![CDATA[
+ecmascript:
+
+function newTranslation(Value)
+{
+    heading_changed = new SFRotation(0.0, 1.0, 0.0, -Value.x * Math.PI);
+}
+
+]]>
+        </Script>
+        <ROUTE fromField='translation_changed' fromNode='HeadingSensor' toField='newTranslation' toNode='HeadingTransformerScript'/>
+        <ROUTE fromField='heading_changed' fromNode='HeadingTransformerScript' toField='rotation' toNode='ModelHeadingTransform'/>
       </Transform>
     </LayoutLayer>
   </LayerSet>
