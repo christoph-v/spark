@@ -141,6 +141,8 @@ Deadline: it's done, when it's done
 
 [Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/ALPES/admin/soma-TODO-detailed.txt)
 
+**Summary:**
+
 0. Some Preparations (ON HOLD)
    - Setup the Infrastructure (DONE)
    - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js)
@@ -156,7 +158,7 @@ Deadline: it's done, when it's done
 
 Next step: tinker with X3Dv4
 
-#### Phase 2 - ALPES Project/Application Layer Protocol Experimental Setup
+#### Phase 2 - ALPES Project (Application Layer Protocol, Experimental Setup)
 
 Not (yet) started
 
@@ -168,7 +170,7 @@ The reason for the S&P-ARK project being "ON HOLD" is, I am currently occupied
 with the establishment of [**"The Society"**](https://lc-soc-lc.or.at).
 
 Furthermore, I am doing some "Experiments with DIS" (see the following
-[LINK](https://github.com/christoph-v/spark/tree/master/ALPES/apps/tprev)).
+[LINK](https://github.com/christoph-v/psark/tree/master/apps/tprev)).
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
