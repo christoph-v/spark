@@ -65,9 +65,7 @@ Both should be “grown up together”, to be compatible to each other.
 
 ## The Project had been started
 
-In spring 2022, we decided to actually start the S&P-ARK project. [The very
-first step will be ELSA](https://github.com/christoph-v/spark/wiki/ELSA) (Wiki
-Page).
+In spring 2022, we decided to actually start the S&P-ARK project.
 
 Actually, S&P-ARK is a [part of the DIGITS Project (which is rather a Vision
 than a Project)](https://github.com/christoph-v/digits), however, it is managed
@@ -78,11 +76,18 @@ Recently, an own WIKI page has been introduced to better explain the
 
 Puchberg, 2022-06-11
 
-## Currently, we are striving to establish the infrastructure
+slightly updated on 2024-05-11
 
-See the [README of the ALPES directory](https://github.com/christoph-v/spark/tree/master/ALPES).
+## We are now striving to establish the infrastructure
 
-Puchberg, 2024-05-10
+The repository spark (this repository) is still under my responsibility, but
+I am trying to organize my (better our) work within the boundaries of the
+freshly founded association
+[**"Society for Lifelong Collaborating"**](https://lc-soc-lc.or.at).
+
+Btw.: This will need the approbation by the organs of that society.
+
+Puchberg, 2024-05-11
 
 # Statements
 
@@ -93,9 +98,16 @@ Following statements are intended to hold true for this repository
 S&P-ARK is not a "real" project, but it is used to publish my opinion
 about a project / or about projects / that should be conducted by the Web3D
 Community to elaborate the "Community Requirements" for the NSN and to use the
-NSN, after it will have been standardized
+NSN, after it will have been standardized.
 
-### 1.1. Now (2022-03-24) the "Template" Project is actually started
+So, actually this means, I (we) will do experiments, we will test this or that
+software, but we will implement our own software only, if this is needed to
+test something else.
+
+The current repository is the place for such experiments and/or tests and/or
+testing software.
+
+### 1.1. (2022-03-24) The "Template" Project had actually been started
 
 with following TODO List
 
@@ -123,16 +135,16 @@ We acknowledge following additional resources of information
 2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
 3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
 
-#### Phase 1 - Open Source Conferencing Tool (PAUSED FOR INFRASTRUCTURE)
+#### Phase 1 - Open Source Conferencing Tool (ON HOLD)
 
 Deadline: it's done, when it's done
 
 [Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/ALPES/admin/soma-TODO-detailed.txt)
 
-0. Some Preparations (PAUSED)
+0. Some Preparations (ON HOLD)
    - Setup the Infrastructure (DONE)
-   - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js) - (PAUSED)
-   - Design of "Experimental Login Server Application (ELSA)" - (PAUSED)
+   - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js)
+   - Design of "Experimental Login Server Application (ELSA)"
 1. Try multicast WebRTC voice conference with HTTP Login and pure Node.js
    - Design of "Simple ALP Login Server Application (SALSA)"
 2. If this works --> try the same with video
@@ -143,6 +155,20 @@ Deadline: it's done, when it's done
 7. If it does not work without mixer --> look for a mixer
 
 Next step: tinker with X3Dv4
+
+#### Phase 2 - ALPES Project/Application Layer Protocol Experimental Setup
+
+Not (yet) started
+
+See the [README of the ALPES directory](https://github.com/christoph-v/spark/tree/master/ALPES).
+
+### 1.2. Since 2023-05-03 the "Template" Project has been ON HOLD
+
+The reason for the S&P-ARK project being "ON HOLD" is, I am currently occupied
+with the establishment of [**"The Society"**](https://lc-soc-lc.or.at).
+
+Furthermore, I am doing some "Experiments with DIS" (see the following
+[LINK](https://github.com/christoph-v/spark/tree/master/ALPES/apps/tprev)).
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
