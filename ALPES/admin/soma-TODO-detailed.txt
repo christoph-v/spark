@@ -5,6 +5,7 @@ DON....done
 ONG....ongoing
 SKP....skipped
 PLN....planned
+HLD....on hold
 
 DON- Ensure ownCloud(vServer) can send E-Mails
 DON- Some Issues at vServer - reported by ownCloud
@@ -40,9 +41,9 @@ DON- Implement some rules about OwnCloud directories
    DON- for ownCloud users (each gets a "private" directory)
    DON- for members of "elsa" (have an only-members "public-elsa" directory)
 SKP- Automated installation of the "Tiny VPN"
-ONG- Design of "Experimental Login Server Application (ELSA)"
+HLD- Design of "Experimental Login Server Application (ELSA)"
    DON- Create Basic Use Case: Web Site "SOMA Test"
-   ONG- Create First Use Case: Experimental Login at ELSA, display avatar pic
+   HLD- Create First Use Case: Experimental Login at ELSA, display avatar pic
       - Create Second Use Case: Experimental Simple Chat (ESC)
       - Create Third Use Case: WebRTC Based Experimental Private Call (unicast)
    - Design of "Simple ALP Login Server Application (SALSA)"
