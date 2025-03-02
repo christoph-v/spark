@@ -78,16 +78,18 @@ Puchberg, 2022-06-11
 
 slightly updated on 2024-05-11
 
-## We are now striving to establish the infrastructure
+## The Society has been Founded
 
 The repository spark (this repository) is still under my responsibility, but
 I am trying to organize my (better our) work within the boundaries of the
 freshly founded association
 [**"Society for Lifelong Collaborating"**](https://lc-soc-lc.or.at).
 
-Btw.: This will need the approbation by the organs of that society.
+Some very first experiments with DIS and FreeWRL have been done in the scope of
+The Society, but the approbation of my projects by the organs of that society
+is still pending.
 
-Puchberg, 2024-05-11
+Vienna, 2025-03-02
 
 # Statements
 
@@ -111,7 +113,7 @@ testing software.
 
 with following TODO List
 
-#### Phase 0 - Telling Stories / Collecting Information (DONE)
+#### Phase 0 - Telling Stories / Collecting Information
 
 We make following assumptions:
 1. Assumption (1) - We will start with implementing an open source conferencing tool for small, closed groups
@@ -135,7 +137,7 @@ We acknowledge following additional resources of information
 2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
 3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
 
-#### Phase 1 - Open Source Conferencing Tool (ON HOLD)
+#### Phase 1 - Open Source Conferencing Tool (SOMA)
 
 Deadline: it's done, when it's done
 
@@ -143,8 +145,8 @@ Deadline: it's done, when it's done
 
 **Summary:**
 
-0. Some Preparations (ON HOLD)
-   - Setup the Infrastructure (DONE)
+0. Some Preparations
+   - Setup the Infrastructure
    - First Experiments (WebRTC, socket.io, AJAX/fetch(), Node.js)
    - Design of "Experimental Login Server Application (ELSA)"
 1. Try multicast WebRTC voice conference with HTTP Login and pure Node.js
@@ -171,6 +173,12 @@ with the establishment of [**The Society**](https://lc-soc-lc.or.at).
 
 Furthermore, I was doing some "Experiments with DIS" (see the following
 [LINK](https://github.com/christoph-v/psark/tree/master/apps/tprev)).
+
+### 1.3. Status on 2025-03-02 / Project still ON HOLD
+
+Phase 0 has been successfully closed, however we have been stuck in Phase 1
+since 2023-05-03. Nevertheless, [The Society](https://lc-soc-lc.or.at) has been
+founded successfully.
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
