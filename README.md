@@ -167,9 +167,9 @@ See the [README of the ALPES directory](https://github.com/christoph-v/spark/tre
 ### 1.2. Since 2023-05-03 the "Template" Project has been ON HOLD
 
 The reason for the S&P-ARK project being "ON HOLD" is, I am currently occupied
-with the establishment of [**"The Society"**](https://lc-soc-lc.or.at).
+with the establishment of [**The Society**](https://lc-soc-lc.or.at).
 
-Furthermore, I am doing some "Experiments with DIS" (see the following
+Furthermore, I was doing some "Experiments with DIS" (see the following
 [LINK](https://github.com/christoph-v/psark/tree/master/apps/tprev)).
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)

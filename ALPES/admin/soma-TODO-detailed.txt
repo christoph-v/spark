@@ -1,5 +1,5 @@
 SOMA
-Simple OwnCloud Based Management of Associations
+Simple ClOud Based Management of Associations
 
 DON....done
 ONG....ongoing
@@ -49,7 +49,7 @@ HLD- Design of "Experimental Login Server Application (ELSA)"
    - Design of "Simple ALP Login Server Application (SALSA)"
       - the login server will be accessed via and located within a secure VPN
         (no additional encryption will be necessary, but that of the VPN)
-      - the "external protocol" (i.e. ownCloud) provides a "user name" and an
+      - the "external protocol" (i.e. Nextloud) provides a "user name" and an
         "access token" to the user. This user name + access token authorizes
         the user to download data from the SALSA
       - the protocol between client and SALSA is the very first version of ALP

@@ -16,10 +16,10 @@ took precedence over the actual ALPES project.
 The **"Society for Lifelong Collaborating"** can now be found on the Internet
 domain [lc-soc-lc.or.at](https://lc-soc-lc.or.at)
 
-Also, I am doing some experiments with the DIS protocol, currently, which are
-not actually connected to the ALPES project.
+Also, I was doing some experiments with the DIS protocol, which were not
+actually connected to the ALPES project.
 
 So, the ALPES project is currently lower prioritized, while we try to establish
 some reliable infrastructure for all these activities.
 
-Puchberg, 2024-05-11
+Vienna, 2025-03-02

@@ -1,5 +1,5 @@
 # SOMA
-Simple OwnCloud Based Management of Associations
+Simple ClOud Based Management of Associations
 
 ## Short Description
 SOMA tries to implement some Web based tool(s) for the administration of small,
@@ -16,4 +16,4 @@ One possibility to test the SOMA tools, will be the
 
 Yours Christoph
 
-Puchberg, 2022-06-11
+Vienna, 2025-03-02
