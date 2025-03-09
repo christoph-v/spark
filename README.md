@@ -78,6 +78,10 @@ Puchberg, 2022-06-11
 
 slightly updated on 2024-05-11
 
+## The S&P-ARK Wiki has been created
+
+[S&P-ARK Wiki](https://github.com/christoph-v/spark/wiki)
+
 ## The Society has been Founded
 
 The repository spark (this repository) is still under my responsibility, but
