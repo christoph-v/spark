@@ -1,13 +1,14 @@
-Create First Use Case: Experimental Login at ELSA, display avatar pic
+Create First Use Case: Experimental Login at ELSA, display avatar pic / presence
 
-ONG- Login entwerfen
-   ONG- Guest account
-      ONG- owncloud "scripts" (o.ae.)
+   - Re-Design (Consider CORS)
+HLD- Login entwerfen
+   HLD- Guest account
+      HLD- owncloud "scripts" (o.ae.)
             - um einen Account anzulegen
             - um die roles zu setzen
             - um das Passwort zu setzen
             - um die elsa_addr zu setzen
-      ONG- Datei ../private/config-soma.json anlegen mit guest credentials
+      HLD- Datei ../private/config-soma.json anlegen mit guest credentials
             - Inhalt der config-soma.json, zum Beispiel
                - uid
                - roles
@@ -15,9 +16,9 @@ ONG- Login entwerfen
                - hash_uid_pwd_secret2
                - cfgseq
                - elsa_addr
-   ONG- whoami implementieren, mit guest testen (CORS, auch vom vServer)
-   ONG- yeti account "normal" anlegen
-   ONG- whoami mit yeti testen
+   HLD- whoami implementieren, mit guest testen (CORS, auch vom vServer)
+   HLD- yeti account "normal" anlegen
+   HLD- whoami mit yeti testen
       - passwd implementieren, mit guest und yeti testen
       - Alle eingeloggten User - Namen verteilen
       - Avatar hochladen

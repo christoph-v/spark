@@ -43,7 +43,8 @@ DON- Implement some rules about OwnCloud directories
 SKP- Automated installation of the "Tiny VPN"
 HLD- Design of "Experimental Login Server Application (ELSA)"
    DON- Create Basic Use Case: Web Site "SOMA Test"
-   HLD- Create First Use Case: Experimental Login at ELSA, display avatar pic
+   HLD- Create First Use Case: Experimental Login at ELSA, avatar pic / presence
+      - Re-Design Basic Use Case and First Use Case: have to consider CORS
       - Create Second Use Case: Experimental Simple Chat (ESC)
       - Create Third Use Case: WebRTC Based Experimental Private Call (unicast)
    - Design of "Simple ALP Login Server Application (SALSA)"

@@ -16,3 +16,4 @@ DON- Web Site entwerfen
       DON- Create soma README
       SKP- Positionen und Rahmen – für Mobiles, Tablets, Laptops und echte Computer
       SKP- accessibility
+   - Re-Design (Consider CORS)
