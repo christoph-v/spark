@@ -141,11 +141,9 @@ We acknowledge following additional resources of information
 2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
 3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
 
-#### Phase 1 - Open Source Conferencing Tool (SOMA)
+#### Phase 1 - Open Source Conferencing Tool (OSC/AR)
 
 Deadline: it's done, when it's done
-
-[Detailed TO DO List (SOMA)](https://github.com/christoph-v/spark/tree/master/ALPES/admin/soma-TODO-detailed.txt)
 
 **Summary:**
 
@@ -166,7 +164,7 @@ Next step: tinker with X3Dv4
 
 #### Phase 2 - ALPES Project (Application Layer Protocol, Experimental Setup)
 
-Not (yet) started
+Tbd.
 
 See the [README of the ALPES directory](https://github.com/christoph-v/spark/tree/master/ALPES).
 
@@ -183,6 +181,21 @@ Furthermore, I was doing some "Experiments with DIS" (see the following
 Phase 0 has been successfully closed, however we have been stuck in Phase 1
 since 2023-05-03. Nevertheless, [The Society](https://lc-soc-lc.or.at) has been
 founded successfully.
+
+### 1.4. 2025-03-20 / Inofficial Decision to Start OSC/AR
+
+I had already done some minor attempts to implement the "Open Source
+Conferencing Tool" (those times I called it SOMA), but now 
+[The Society](https://lc-soc-lc.or.at) has been successfully founded
+and we have established our way of working.
+
+Therefore, I asked the other members of The Society, if they could imagine
+to be willing to test the "Open Source Conferencing Tool", once I would
+have implemented it after some months or years.
+
+Now, I am calling the "Open Source Conferencing Tool" the OSC/AR.
+
+See the [README of the OSC/AR tool](https://github.com/christoph-v/spark/tree/master/ALPES/apps/osc_ar)
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
