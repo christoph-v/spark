@@ -63,7 +63,7 @@ Both should be “grown up together”, to be compatible to each other.
 
 # Latest Achievements
 
-## The Project had been started
+## A. The Project had been started
 
 In spring 2022, we decided to actually start the S&P-ARK project.
 
@@ -78,11 +78,11 @@ Puchberg, 2022-06-11
 
 slightly updated on 2024-05-11
 
-## The S&P-ARK Wiki has been created
+## B. The S&P-ARK Wiki has been created
 
 [S&P-ARK Wiki](https://github.com/christoph-v/spark/wiki)
 
-## The Society has been Founded
+## C. The Society has been Founded
 
 The repository spark (this repository) is still under my responsibility, but
 I am trying to organize my (better our) work within the boundaries of the
@@ -117,7 +117,7 @@ testing software.
 
 with following TODO List
 
-#### Phase 0 - Telling Stories / Collecting Information
+#### Phase 0 - Telling Stories / Collecting Information - DONE
 
 We make following assumptions:
 1. Assumption (1) - We will start with implementing an open source conferencing tool for small, closed groups
@@ -141,7 +141,7 @@ We acknowledge following additional resources of information
 2. Additional Info (b) - [https://coderextreme.net/BigBuck](https://coderextreme.net/BigBuck) - video texture
 3. Additional Info (c) - [https://quiet-forest-75069.herokuapp.com](https://quiet-forest-75069.herokuapp.com) - socket.io (text/chat/multiuser app)
 
-#### Phase 1 - Open Source Conferencing Tool (OSC/AR)
+#### Phase 1 - Open Source Conferencing Tool (OSC/AR) - ONGOING
 
 Deadline: it's done, when it's done
 

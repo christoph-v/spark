@@ -22,7 +22,8 @@ actually connected to the ALPES project.
 So, the ALPES project is currently lower prioritized, while we try to establish
 some reliable infrastructure for all these activities.
 
-The "Open Source Conferencing Tool" (see directory spark/ALPES/apps/osc_ar) is
-our current focus here on the S&P-ARK.
+The "Open Source Conferencing Tool" (see the directory
+[spark/ALPES/apps/osc_ar](https://github.com/christoph-v/spark/tree/master/ALPES/apps/osc_ar))
+is our current focus here on the S&P-ARK.
 
-Vienna, 2025-03-28
+Vienna, 2025-03-29

@@ -1,9 +1,9 @@
-# OSC/AR
-Open Source Conferencing Tool / Based on Application Router
+# OSC/AR/ELSA
+Open Source Conferencing Tool / Based on Application Router and ELSA
 
 ## Short Description
 Tbd.
 
 Yours Christoph
 
-Vienna, 2025-03-28
+Vienna, 2025-03-29
