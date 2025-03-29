@@ -1,10 +1,8 @@
-# DIGITS / S&P-ARK / ALPES
+# DIGITS / S&P-ARK
 
 Distributed Internet Geographic Infrastructure Transmission Service (DIGITS)
 
 Simple Playground - Achieving Required Knowledge (S&P-ARK)
-
-Application Layer Protocol, Experimental Setup (ALPES)
 
 # The Vision
 
@@ -61,26 +59,7 @@ geographic infrastructure.
 
 Both should be “grown up together”, to be compatible to each other.
 
-# Latest Achievements
-
-## A. The Project had been started
-
-In spring 2022, we decided to actually start the S&P-ARK project.
-
-Actually, S&P-ARK is a [part of the DIGITS Project (which is rather a Vision
-than a Project)](https://github.com/christoph-v/digits), however, it is managed
-in a separate repository (this repository).
-
-Recently, an own WIKI page has been introduced to better explain the
-[connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
-
-Puchberg, 2022-06-11
-
-slightly updated on 2024-05-11
-
-## B. The S&P-ARK Wiki has been created
-
-[S&P-ARK Wiki](https://github.com/christoph-v/spark/wiki)
+# Latest Achievements (in Reverse Order)
 
 ## C. The Society has been Founded
 
@@ -95,11 +74,30 @@ is still pending.
 
 Vienna, 2025-03-02
 
+## B. The S&P-ARK Wiki has been created
+
+[S&P-ARK Wiki](https://github.com/christoph-v/spark/wiki)
+
+## A. The Project had been started
+
+In spring 2022, we decided to actually start the S&P-ARK project.
+
+Actually, S&P-ARK is a part of the [DIGITS Project (which is rather a Vision
+than a Project)](https://github.com/christoph-v/digits), however, it is managed
+in a separate repository (this repository).
+
+Recently, an own WIKI page has been introduced to better explain the
+[connection between DIGITS and S&P-ARK](https://github.com/christoph-v/spark/wiki/DIGITS).
+
+Puchberg, 2022-06-11
+
+slightly updated on 2024-05-11
+
 # Statements
 
 Following statements are intended to hold true for this repository
 
-## 1. S&P-ARK, The Project
+## 1. S&P-ARK, The Project (in Reverse Order)
 
 S&P-ARK is not a "real" project, but it is used to publish my opinion
 about a project / or about projects / that should be conducted by the Web3D
@@ -112,6 +110,34 @@ test something else.
 
 The current repository is the place for such experiments and/or tests and/or
 testing software.
+
+### 1.3. 2025-03-20 / Inofficial Decision to Start OSC/AR
+
+I had already done some minor attempts to implement the "Open Source
+Conferencing Tool" (those times I called it SOMA, see the
+[README of the SOMA tool](https://github.com/christoph-v/spark/tree/master/ALPES/apps/soma)),
+but now [The Society](https://lc-soc-lc.or.at) has been successfully founded
+and we have established our way of working.
+
+Therefore, I asked the other members of The Society, if they could imagine
+to be willing to test the "Open Source Conferencing Tool", once I would
+have implemented it after some months or years.
+
+Now, I am calling the "Open Source Conferencing Tool" the OSC/AR.
+
+See the [README of the OSC/AR tool](https://github.com/christoph-v/spark/tree/master/ALPES/apps/osc_ar)
+
+This can be interpreted as a preparation for the
+[S&P-ARK/ALPES](https://github.com/christoph-v/spark/tree/master/ALPES) project,
+that will not be started before the year 2030.
+
+### 1.2. Since 2023-05-03 the "Template" Project has been ON HOLD
+
+The reason for the S&P-ARK project being "ON HOLD" is, I am currently occupied
+with the establishment of [**The Society**](https://lc-soc-lc.or.at).
+
+Furthermore, I was doing some "Experiments with DIS" (see the following
+[LINK](https://github.com/christoph-v/psark/tree/master/apps/tprev)).
 
 ### 1.1. (2022-03-24) The "Template" Project had actually been started
 
@@ -167,30 +193,6 @@ Next step: tinker with X3Dv4
 Tbd.
 
 See the [README of the ALPES directory](https://github.com/christoph-v/spark/tree/master/ALPES).
-
-### 1.2. Since 2023-05-03 the "Template" Project has been ON HOLD
-
-The reason for the S&P-ARK project being "ON HOLD" is, I am currently occupied
-with the establishment of [**The Society**](https://lc-soc-lc.or.at).
-
-Furthermore, I was doing some "Experiments with DIS" (see the following
-[LINK](https://github.com/christoph-v/psark/tree/master/apps/tprev)).
-
-### 1.3. 2025-03-20 / Inofficial Decision to Start OSC/AR
-
-I had already done some minor attempts to implement the "Open Source
-Conferencing Tool" (those times I called it SOMA, see the
-[README of the SOMA tool](https://github.com/christoph-v/spark/tree/master/ALPES/apps/soma)),
-but now [The Society](https://lc-soc-lc.or.at) has been successfully founded
-and we have established our way of working.
-
-Therefore, I asked the other members of The Society, if they could imagine
-to be willing to test the "Open Source Conferencing Tool", once I would
-have implemented it after some months or years.
-
-Now, I am calling the "Open Source Conferencing Tool" the OSC/AR.
-
-See the [README of the OSC/AR tool](https://github.com/christoph-v/spark/tree/master/ALPES/apps/osc_ar)
 
 ## 2. Everlasting Statements (last modified on 2019-07-23)
 
