@@ -23,6 +23,10 @@ The "Application Router", which will be needed by OSC/AR/ELSA, will be
 implemented in the directory
 [spark/ALPES/servs/ar/](https://github.com/christoph-v/spark/tree/master/ALPES/servs/ar).
 
+The "Experimental Login Server Application" (ELSA), which will be needed by
+OSC/AR/ELSA, too, will be implemented in the directory
+[spark/ALPES/servs/elsa/](https://github.com/christoph-v/spark/tree/master/ALPES/servs/elsa).
+
 Yours Christoph
 
 Vienna, 2025-03-29
