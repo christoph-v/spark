@@ -176,13 +176,7 @@ with the establishment of [**The Society**](https://lc-soc-lc.or.at).
 Furthermore, I was doing some "Experiments with DIS" (see the following
 [LINK](https://github.com/christoph-v/psark/tree/master/apps/tprev)).
 
-### 1.3. Status on 2025-03-02 / Project still ON HOLD
-
-Phase 0 has been successfully closed, however we have been stuck in Phase 1
-since 2023-05-03. Nevertheless, [The Society](https://lc-soc-lc.or.at) has been
-founded successfully.
-
-### 1.4. 2025-03-20 / Inofficial Decision to Start OSC/AR
+### 1.3. 2025-03-20 / Inofficial Decision to Start OSC/AR
 
 I had already done some minor attempts to implement the "Open Source
 Conferencing Tool" (those times I called it SOMA), but now 
