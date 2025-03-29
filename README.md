@@ -179,8 +179,9 @@ Furthermore, I was doing some "Experiments with DIS" (see the following
 ### 1.3. 2025-03-20 / Inofficial Decision to Start OSC/AR
 
 I had already done some minor attempts to implement the "Open Source
-Conferencing Tool" (those times I called it SOMA), but now 
-[The Society](https://lc-soc-lc.or.at) has been successfully founded
+Conferencing Tool" (those times I called it SOMA, see the
+[README of the SOMA tool](https://github.com/christoph-v/spark/tree/master/ALPES/apps/soma)),
+but now [The Society](https://lc-soc-lc.or.at) has been successfully founded
 and we have established our way of working.
 
 Therefore, I asked the other members of The Society, if they could imagine
