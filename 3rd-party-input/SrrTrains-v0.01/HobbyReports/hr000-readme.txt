@@ -2,11 +2,12 @@
                     Hobby Reports of SrrTrains v0.01
                     ================================
                     
-                                                                      2020-08-03
+                                                                      2025-06-15
 
 ================================================================================
-The SrrTrains v0.01 project is currently being in a "CLOSED" / "HIBERNATING"
-state, because we are waiting for 3rd party interest to RE-OPEN the project.
+The SrrTrains v0.01 project is currently an "ACCTIVE" project, yet the progress
+is going on very slowly, because there are many other things to do on this
+world, which take a higher priority.
 ================================================================================
 
 ================================================================================
@@ -14,7 +15,7 @@ The stable version of the Hobby Reports of SrrTrains v0.01 that were in line
 with the release 0033.10 "Pieta" of the SRR Framework - i.e. the version 3.x of
 the Hobby Reports - can be found in branch "stable_33.10".
 
-Step 0033.11 is currently documented in the master branch. The documentation
+Step 0033.11 is currently documented in the "master" branch. The documentation
 for step 0033.11 is not stable yet.
 
    document version 4.3.x ...... 0033.11 has been defined
@@ -29,9 +30,12 @@ step 0033.11) in the "master" branch of the present repository.
     - items to be done for "Sabbath" are marked by a tag "TODO12"
     - items to be done even later (step >= 0034) are marked by a tag "TODO"
 
+    - architectural items for release "Fiat A" are marked by a tag "TODO-FA"
+
 Prophecy i.e. Planning: 
     - TODO11 "Arimathea" will be finished "beyond 2035, if at all"
     - TODO12 "Sabbath" will be finished "even later, if at all"
+    - TODO-FA "Fiat A" is ongoing. It's done, when it's done
 
 Everything marked by "TODO" is currently "OPEN" (not planned)
 ================================================================================
