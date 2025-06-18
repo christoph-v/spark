@@ -2,12 +2,12 @@
                     Hobby Reports of SrrTrains v0.01
                     ================================
                     
-                                                                      2025-06-15
+                                                                      2025-06-18
 
 ================================================================================
-The SrrTrains v0.01 project is currently an "ACCTIVE" project, yet the progress
+The SrrTrains v0.01 project is currently an "ACTIVE" project, yet the progress
 is going on very slowly, because there are many other things to do on this
-world, which take a higher priority.
+planet, which take a higher priority.
 ================================================================================
 
 ================================================================================
@@ -26,8 +26,8 @@ for step 0033.11 is not stable yet.
 The Hobby Reports are now being provided at version 4.x ("Arimathea" release -
 step 0033.11) in the "master" branch of the present repository.
 
-    - items to be done for "Arimathea" are marked by a tag "TODO11"
-    - items to be done for "Sabbath" are marked by a tag "TODO12"
+    - items for "Arimathea" (step 0033.11)are marked by a tag "TODO11"
+    - items for "Sabbath" (step 0033.12) are marked by a tag "TODO12"
     - items to be done even later (step >= 0034) are marked by a tag "TODO"
 
     - architectural items for release "Fiat A" are marked by a tag "TODO-FA"
@@ -42,7 +42,7 @@ Everything marked by "TODO" is currently "OPEN" (not planned)
 
 Envisioned steps 0034, 0035, ..... of the SrrTrains project might be considered
 in SrrTrains v1.0, which might become existent, if the SMS Biotope will become
-existent as an outcome of S&P-ARK.
+existent (hopefully supported by S&P-ARK).
 
 Summary
 -------
@@ -70,7 +70,7 @@ Hobby Report 003 - Tracer Leaflet / LAN Party #3
    This hobby report will be a feature of the "LAN Party #3", the current
    content is NOT UP TO DATE.
    Current version is 3.0, it will be updated shortly before LAN Party #3, the
-   new version will be 4.3.x or 4.4.x
+   new version will be 4.3.x (release "Fiat A") or 4.4.x (release "Arimathea")
    
 Hobby Report 004 - Kinds of Objects
 -----------------------------------
@@ -124,6 +124,23 @@ Hobby Report 012 - New Instance Naming
 Hobby Report 013 - The Decision
 -------------------------------
    This is a new hobby report, which introduces release "Fiat A". Release
-   "Fiat A" could become - if started - an intermediate step towards "Arimathea"
+   "Fiat A" will become an intermediate step towards "Arimathea" (step 0033.11).
    Current version is 4.3.x, it will not be updated again (it's a "snapshot")
-  
+
+Hobby Report 014 - Our Little MUD
+---------------------------------
+   This is a Hobby Report, which is almost not connected to SrrTrains at all.
+   As I write on my Blackboard Pages at "The Society"
+   https://lc-soc-lc.at/blackboard/member-space/yeti/public/index.html
+   1. Supporting the JSONverse
+   1.1. vServer Support
+      As our first and - as I think - most important support for John, we
+      provide him a LINUX account at our vServer, so he can provide his users
+      and testers with an online experience of his codes.
+      The first scene: https://li-soc-lc.at:8443/yottzumm/public/index.html.
+   1.2. Discussion, Documentation
+      Second, I am going to write a few words about John's project, every now
+      and then.
+      The first place of such documentation is the SrrTrains Hobby Report 014,
+      which is stored in my S&P-ARK repository
+      
